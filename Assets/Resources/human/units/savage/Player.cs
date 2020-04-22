@@ -5,18 +5,22 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public GameObject weapon1, bone;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         Animation anim = GetComponent<Animation>();
+	//animator = GetComponent<Animator>();
+
 	/*
         foreach (AnimationState state in anim)
         {
             state.speed = 0.5F;
         }
 	*/
-	anim.Play("idle_new");	
+	//anim.Play("savage_idle");
+        animator.Play("savage_idle");
 
         // weapon attachment test
         weapon1 = Instantiate(Resources.Load("human/units/savage/weapons/sword", typeof(GameObject))) as GameObject;
@@ -53,8 +57,9 @@ public class Player : MonoBehaviour
     void Update () {
         if (Input.GetMouseButtonDown(0) /*&& !isAnimAttack*/) {
             isAnimAttack = true;
+            animator.SetBool("isAttack", true);
             Animation anim = GetComponent<Animation>();
-            anim.Play("savage_attack_0");
+            //anim.Play("savage_attack_0");
             StartCoroutine("OnCompleteAttackAnimation");
         }
 
@@ -82,7 +87,7 @@ int w = myAnim.GetCurrentAnimatorClipInfo(0).Length;
         Vector3 p = GetBaseInput();
 	if(p.Equals(new Vector3(0,0,0)) && !isAnimAttack) {
 	    Animation anim = GetComponent<Animation>();
-	    anim.Play("idle_new");
+	    //anim.Play("savage_idle");
             return;
 	}
         if (Input.GetKey (KeyCode.LeftShift)){
@@ -112,10 +117,12 @@ int w = myAnim.GetCurrentAnimatorClipInfo(0).Length;
      
     private Vector3 GetBaseInput() { //returns the basic values, if it's 0 than it's not active.
         Vector3 p_Velocity = new Vector3();
+        animator.SetBool("isRunFwd", false);
         if (Input.GetKey (KeyCode.W)){
             p_Velocity += new Vector3(0, 0 , 1);
 	    Animation anim = GetComponent<Animation>();
-	    anim.Play("run_fwd_new");
+	    //anim.Play("savage_run_fwd");
+            animator.SetBool("isRunFwd", true);
         }
         if (Input.GetKey (KeyCode.S)){
             p_Velocity += new Vector3(0, 0, -1);
@@ -136,6 +143,7 @@ int w = myAnim.GetCurrentAnimatorClipInfo(0).Length;
         Animator pc_anim = GetComponent<Animator>();
         yield return new WaitUntil(() => pc_anim.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f);
         isAnimAttack = false;
+        //animator.SetBool("isAttack", false);
     }
 
 }

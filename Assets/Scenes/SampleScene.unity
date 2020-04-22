@@ -2642,7 +2642,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5006512735859325480}
-  - component: {fileID: 8296172668140111932}
   - component: {fileID: 8296172668140111933}
   - component: {fileID: 8296172668140111934}
   m_Layer: 0
@@ -2652,24 +2651,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!111 &8296172668140111932
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8296172668140111931}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 58472198210d2511a95bebd1271a3596, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 58472198210d2511a95bebd1271a3596, type: 2}
-  - {fileID: 7400000, guid: 85a13d9d3dde77af7b8c25684e5a37c7, type: 2}
-  - {fileID: 7400000, guid: 1b0d8ae10840b9f189ebaa2034c0dd29, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &8296172668140111933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2684,6 +2665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon1: {fileID: 8833449549298717561, guid: 28b6f8491449e30e391c530f91326603, type: 3}
   bone: {fileID: 0}
+  animator: {fileID: 8296172668140111934}
   speed: 3
   rotateSpeed: 3
 --- !u!95 &8296172668140111934
@@ -2696,7 +2678,7 @@ Animator:
   m_GameObject: {fileID: 8296172668140111931}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d5a20c8cbad74c61587a8a92d261be35, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
