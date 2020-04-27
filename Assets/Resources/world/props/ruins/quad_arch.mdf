@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Bigarch texture first pass.max" file="quad_arch.model" type="K2" >
+
+<anim name="idle" clip="quad_arch.clip" numframes="100" startframe="0" fps="5"/>
+
+</model>
+

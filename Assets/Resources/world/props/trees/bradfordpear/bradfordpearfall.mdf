@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Bradford Pear (Fall)" file="BradfordPear_RT_Fall.spt" type="SpeedTree">
+	<branchmat file="BradfordPearBark.material"/>
+	<frondmat file="BradfordPearFrondFall.material"/>
+	<leafmat file="BradfordPearLeavesFall.material"/>
+	<billboardmat file="BradfordPearBillboardFall.material"/>
+</model>

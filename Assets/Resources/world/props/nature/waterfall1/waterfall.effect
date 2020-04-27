@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="waterfall">
+
+	<definitions>
+
+		<particlesystem name="system0" space="world">
+
+			<simpleemitter
+         			spawnrate="85"
+				minparticlelife="3500"
+          			maxparticlelife="6500"
+          			gravity="55"
+				speed="1100"
+         			
+          			drag=".0018"
+          			material="waterfall2.material"
+				angle="0"
+				position="-800 0 1450"
+				direction="1 0 0"
+				startoffsetsphere="150 250 0"
+				endoffsetsphere="150 250 200"
+         		>
+  				<particle 
+					startcolor="12.9 2.95 32"
+					endcolor=".8 .85 .7"
+					minangle="-60"
+					maxangle="60"			
+					scale="7"
+					minanglespeed="15"
+					maxanglespeed="-15"
+					startsize="25"
+					endsize="95"			
+					startalpha="0.1"
+					midalphapos="0.1"
+					midalpha="1"
+					endalpha="0"
+					
+				/>
+        		</simpleemitter>
+
+			<simpleemitter
+         			spawnrate="15"
+				particlelife="1200"
+				speed="60"
+          			gravity="-1"
+          			material="waterfall.material"
+				angle="0"
+				position="550 0 0"
+				offsetsphere="150 200 70"
+         		>
+  				<particle 
+					startcolor="12 2 2"
+					endcolor=".5 .55 .6"
+					minangle="-60"
+					maxangle="60"			
+					scale="8"
+					minanglespeed="15"
+					maxanglespeed="-15"
+					startsize="45"
+					endsize="65"			
+					startalpha="0"
+					midalpha="1"
+					endalpha="0"
+					endheight="100"
+				/>
+        		</simpleemitter>
+
+			<simpleemitter
+         			spawnrate="25"
+				particlelife="1200"
+				speed="60"
+          			gravity="-1"
+          			material="waterfall.material"
+				angle="0"
+				position="550 0 0"
+				offsetsphere="350 500 70"
+         		>
+  				<particle 
+					startcolor="12 2 2"
+					endcolor=".5 .55 .6"
+					minangle="-60"
+					maxangle="60"			
+					scale="8"
+					minanglespeed="15"
+					maxanglespeed="-15"
+					startsize="45"
+					endsize="65"			
+					startalpha="1"
+					midalpha="1"
+					endalpha="0"
+					endheight="100"
+				/>
+        		</simpleemitter>
+
+
+
+		</particlesystem>
+
+	</definitions>
+
+	<thread>
+		<spawnparticlesystem instance="instance0" particlesystem="system0"/>
+		<waitfordeath instance="instance0"/>
+		<!-- <die /> -->
+	</thread>
+
+</effect>
+
+<!-- [min|max][start|mid|end]property[speed][position] -->

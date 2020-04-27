@@ -1,0 +1,8 @@
+beginObjdef blocker "Rocks:shim_rocks_b"
+  obj_editorCategory prop_waterfall
+  obj_model /props/rocks/shim_rocks/shim_rocks_b.model
+  obj_skin default
+  obj_editorScaleRangeLo 1.000000
+  obj_editorScaleRangeHi 1.000000
+endObjdef "Rocks:shim_rocks_b"
+

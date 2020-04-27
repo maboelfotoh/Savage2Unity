@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="sac torchs">
+
+	<definitions>
+		<particlesystem name="system0" space="world">
+
+		<simpleemitter
+			bone="_bone_torch_flame01"
+			spawnrate="10"
+			particlelife="4000"
+			gravity="-2"
+			speed="65"
+			drag=".08"
+			acceleration="0"
+			position="0 0 30"
+			minangle="0"
+			maxangle="180"
+			direction="0 0 0"
+			material="/shared/effects/materials/smoke_particle.material"
+			offsetsphere="0 0 50 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="0"
+				maxanglespeed="70"
+				startalpha="0"
+				midalpha=".1"
+				endalpha="0"
+				midalphapos=".2"
+				startframe="-5"
+				endframe="1"
+				startsize="20"
+				endsize="75"
+				color="0 0 0"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone_torch_flame01"
+			spawnrate="40"
+			particlelife="800"
+			gravity="-10"
+			minspeed="0"
+			maxspeed="50"
+			drag=".01"
+			acceleration="0"
+			position="0 0 8"
+			minangle="0"
+			maxangle="90"
+			direction="0 -1 5"
+			material="/shared/effects/materials/flame.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="180" 
+				minanglespeed="-10"
+				maxanglespeed="10"
+				startframe="0"
+				endframe="1"
+				startsize="30"
+				endsize="1"
+				startcolor="0 0 0"
+				midcolor=".3 .3 .3"
+				endcolor=".3 0 0"
+				midcolorpos=".1"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone_torch_flame02"
+			spawnrate="10"
+			particlelife="4000"
+			gravity="-2"
+			speed="65"
+			drag=".08"
+			acceleration="0"
+			position="0 0 30"
+			minangle="0"
+			maxangle="180"
+			direction="0 0 0"
+			material="/shared/effects/materials/smoke_particle.material"
+			offsetsphere="0 0 50 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="0"
+				maxanglespeed="70"
+				startalpha="0"
+				midalpha=".1"
+				endalpha="0"
+				midalphapos=".2"
+				startframe="-5"
+				endframe="1"
+				startsize="20"
+				endsize="75"
+				color="0 0 0"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone_torch_flame02"
+			spawnrate="40"
+			particlelife="800"
+			gravity="-10"
+			minspeed="0"
+			maxspeed="50"
+			drag=".01"
+			acceleration="0"
+			position="0 0 8"
+			minangle="0"
+			maxangle="90"
+			direction="0 -1 5"
+			material="/shared/effects/materials/flame.material"
+			offsetsphere="0 0 0"
+		>
+			<particle
+				minangle="0"
+				maxangle="180" 
+				minanglespeed="-10"
+				maxanglespeed="10"
+				startframe="0"
+				endframe="1"
+				startsize="40"
+				endsize="1"
+				startcolor="0 0 0"
+				midcolor=".3 .3 .3"
+				endcolor=".3 0 0"
+				midcolorpos=".1"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+	
+		<simpleemitter
+			bone="_bone_torch_flame03"
+			spawnrate="10"
+			particlelife="4000"
+			gravity="-2"
+			speed="65"
+			drag=".08"
+			acceleration="0"
+			position="0 0 30"
+			minangle="0"
+			maxangle="180"
+			direction="0 0 0"
+			material="/shared/effects/materials/smoke_particle.material"
+			offsetsphere="0 0 50 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="0"
+				maxanglespeed="70"
+				startalpha="0"
+				midalpha=".1"
+				endalpha="0"
+				midalphapos=".2"
+				startframe="-5"
+				endframe="1"
+				startsize="20"
+				endsize="75"
+				color="0 0 0"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone_torch_flame03"
+			spawnrate="40"
+			particlelife="800"
+			gravity="-10"
+			minspeed="0"
+			maxspeed="50"
+			drag=".01"
+			acceleration="0"
+			position="0 0 8"
+			minangle="0"
+			maxangle="90"
+			direction="0 -1 5"
+			material="/shared/effects/materials/flame.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="180" 
+				minanglespeed="-10"
+				maxanglespeed="10"
+				startframe="0"
+				endframe="1"
+				startsize="40"
+				endsize="1"
+				startcolor="0 0 0"
+				midcolor=".3 .3 .3"
+				endcolor=".3 0 0"
+				midcolorpos=".1"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+
+		
+		<simpleemitter
+			bone="_bone_torch_flame04"
+			spawnrate="10"
+			particlelife="4000"
+			gravity="-2"
+			speed="65"
+			drag=".08"
+			acceleration="0"
+			position="0 0 30"
+			minangle="0"
+			maxangle="180"
+			direction="0 0 0"
+			material="/shared/effects/materials/smoke_particle.material"
+			offsetsphere="0 0 50 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="0"
+				maxanglespeed="70"
+				startalpha="0"
+				midalpha=".1"
+				endalpha="0"
+				midalphapos=".2"
+				startframe="-5"
+				endframe="1"
+				startsize="20"
+				endsize="75"
+				color="0 0 0"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone_torch_flame04"
+			spawnrate="40"
+			particlelife="800"
+			gravity="-10"
+			minspeed="0"
+			maxspeed="50"
+			drag=".01"
+			acceleration="0"
+			position="0 0 8"
+			minangle="0"
+			maxangle="90"
+			direction="0 -1 5"
+			material="/shared/effects/materials/flame.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="180" 
+				minanglespeed="-10"
+				maxanglespeed="10"
+				startframe="0"
+				endframe="1"
+				startsize="40"
+				endsize="1"
+				startcolor="0 0 0"
+				midcolor=".3 .3 .3"
+				endcolor=".3 0 0"
+				midcolorpos=".1"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+					
+		<simpleemitter
+			bone="_bone_torch_flame"
+			spawnrate="10"
+			particlelife="4000"
+			gravity="-2"
+			speed="65"
+			drag=".08"
+			acceleration="0"
+			position="0 0 30"
+			minangle="0"
+			maxangle="180"
+			direction="0 0 0"
+			material="/shared/effects/materials/smoke_particle.material"
+			offsetsphere="0 0 50 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="0"
+				maxanglespeed="70"
+				startalpha="0"
+				midalpha=".1"
+				endalpha="0"
+				midalphapos=".2"
+				startframe="-5"
+				endframe="1"
+				startsize="20"
+				endsize="75"
+				color="0 0 0"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone_torch_flame"
+			spawnrate="40"
+			particlelife="800"
+			gravity="-10"
+			minspeed="0"
+			maxspeed="50"
+			drag=".01"
+			acceleration="0"
+			position="0 0 8"
+			minangle="0"
+			maxangle="90"
+			direction="0 -1 5"
+			material="/shared/effects/materials/flame.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="180" 
+				minanglespeed="-10"
+				maxanglespeed="10"
+				startframe="0"
+				endframe="1"
+				startsize="40"
+				endsize="1"
+				startcolor="0 0 0"
+				midcolor=".3 .3 .3"
+				endcolor=".3 0 0"
+				midcolorpos=".1"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+        
+		</particlesystem>
+	</definitions>
+
+	<thread>
+     		<spawnparticlesystem instance="instance0" particlesystem="system0"/>
+        		<waitfordeath instance="instance0"/>
+        		<!-- <die /> -->
+	</thread>
+
+</effect>
+
+<!-- [min|max][start|mid|end]property[speed][position] -->

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="spawnflag">
+	<definitions>
+		<!-- Swoosh -->
+		<particlesystem name="system0" space="world">
+
+
+
+
+
+
+
+<simpleemitter
+					
+			spawnrate="4"
+			particlelife="3000"				
+			gravity="-.5"
+			material="/shared/effects/materials/smokering.material"
+			offsetsphere="0 0 0"
+			minspeed="0"
+			maxspeed="4"
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="-20"
+				maxanglespeed="20"
+
+				startsize="30"
+				endsize="80"
+				startcolor="0 0 0"
+				midcolor="0 .3 .6"
+				endcolor="0 0 0"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+</simpleemitter>
+
+
+
+
+
+
+
+
+
+
+
+		<groundsprite
+		
+			material="/shared/effects/materials/starlight.material"
+			size="70"
+		
+			loop="true"
+			life="4000"
+			startcolor="0 0 0"
+			midcolor=".0 .4 .8"
+			endcolor="0 0 0"
+			
+			yawspeed="15"
+			
+		/>
+		
+		
+		
+		<light
+			color="0 .2 1"
+			falloffend="75"
+			position="0 0 20"
+		/>
+	
+		<groundsprite
+		
+			material="/shared/effects/materials/officer_aura.material"
+			size="30"
+			loop="true"
+			life="2000"
+			startcolor="0 0 0"
+			midcolor=".0 .2 .4"
+			endcolor="0 0 0"
+		
+			yawspeed="10"
+			
+		/>		
+		</particlesystem>
+	</definitions>
+
+	<thread>
+		<spawnparticlesystem instance="instance0" particlesystem="system0" />
+		<waitfordeath instance="instance0" />
+		<!-- <die /> -->
+	</thread>
+</effect>
+
+<!-- [min|max][start|mid|end]property[speed][position] -->

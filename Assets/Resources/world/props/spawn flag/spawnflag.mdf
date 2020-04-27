@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="spawnFlag2.model" file="spawnflag2.model" type="K2">
+
+	<skin name="red">
+		<reference mesh="flag" material="team_flag_red.material" />
+		<reference mesh="flag01" material="team_flag_red.material" />
+	</skin>
+	
+	<skin name="green">
+		<reference mesh="flag" material="team_flag_green.material" />
+		<reference mesh="flag01" material="team_flag_green.material" />
+	</skin>
+
+	<anim name="idle" clip="idle.clip" loop="true" fps="15">
+		<startevent cmd="PlaySoundLooping /world/props/SpawnFlag2/sounds/idle.wav 65 1 0 200 200"/>
+		<startevent cmd="starteffect spawnflag.effect"/>
+	</anim>
+	
+</model>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="waterfall">
+
+	<definitions>
+
+		<particlesystem name="system0" space="world">
+
+			<simpleemitter
+         			spawnrate="15"
+				minparticlelife="2500"
+          			maxparticlelife="6500"
+          			gravity="55"
+				minspeed="1400"
+         			maxspeed="3550"
+          			drag=".01"
+          			material="/shared/effects/materials/dust5.material"
+				angle="0"
+				position="115 -70 200"
+				direction="-1 0 0"
+				offsetsphere="250 50 70"
+         		>
+  				<particle 
+					startcolor=".9 .95 1"
+					endcolor=".5 .55 .6"
+					minangle="-60"
+					maxangle="60"			
+					scale="6"
+					minanglespeed="15"
+					maxanglespeed="-15"
+					startsize="55"
+					endsize="86"			
+					startalpha="0"
+					midalpha="0.75"
+					endalpha="0"
+					endheight="200"
+				/>
+        		</simpleemitter>
+
+			<simpleemitter
+         			spawnrate="15"
+				minparticlelife="600"
+          			maxparticlelife="1600"
+          			gravity="15"
+         			speed="135"
+          			drag=".01"
+          			material="/shared/effects/materials/dust5.material"
+				angle="0"
+				position="50 -70 200"
+				direction="-1 0 0"
+				offsetsphere="150 150 5"
+         		>
+  				<particle 
+					color=".9 .95 1"
+					minangle="-60"
+					maxangle="60"			
+					scale="6"
+					minanglespeed="5"
+					maxanglespeed="-5"
+					startsize="55"
+					endsize="86"			
+					startalpha="0"
+					midalpha="0.75"
+					endalpha="0"
+				/>
+        		</simpleemitter>
+
+			<simpleemitter
+         			spawnrate="10"
+				minparticlelife="2500"
+          			maxparticlelife="6500"
+          			gravity="65"
+				minspeed="1400"
+         			maxspeed="3550"
+          			drag=".01"
+          			material="/shared/effects/materials/air.material"
+				angle="0"
+				position="170 -70 240"
+				direction="-1 0 0"
+				offsetsphere="50 150 50"
+         		>
+  				<particle 
+					startcolor=".9 .95 1"
+					endcolor=".5 .55 .6"
+					minangle="-60"
+					maxangle="60"			
+					scale="6"
+					minanglespeed="25"
+					maxanglespeed="-25"
+					startsize="55"
+					endsize="125"			
+					startalpha="0"
+					midalphapos="0.2"
+					midalpha="1"
+					endalpha="0"
+				/>
+  				<particle 
+					startcolor="0.7 0.75 0.8"
+					endcolor=".5 .55 .6"
+					minangle="-60"
+					maxangle="60"			
+					scale="6"
+					minanglespeed="25"
+					maxanglespeed="-25"
+					startsize="55"
+					endsize="125"			
+					startalpha="0"
+					midalphapos="0.2"
+					midalpha="0.65"
+					endalpha="0"
+					endangle="90"
+				/>
+
+        		</simpleemitter>
+
+		</particlesystem>
+
+	</definitions>
+
+	<thread>
+		<spawnparticlesystem instance="instance0" particlesystem="system0"/>
+		<waitfordeath instance="instance0"/>
+		<!-- <die /> -->
+	</thread>
+
+</effect>
+
+<!-- [min|max][start|mid|end]property[speed][position] -->

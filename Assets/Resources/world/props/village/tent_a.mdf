@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="tent_a.max" file="tent_a.model" type="K2" >
+
+<anim name="idle" clip="tent_a.clip" startframe="0" numframes="100" loop="false" >
+	<startevent frame="0" cmd="StartEffect /shared/effects/tentSmoke.effect "/>
+</anim>	
+	
+		
+
+</model>
+

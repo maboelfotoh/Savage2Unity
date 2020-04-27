@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Black Gum (Winter)" file="BlackGum_RT_Winter.spt" type="SpeedTree">
+	<branchmat file="BlackGumBark.material"/>
+	<frondmat file="BlackGumFrondWinter.material"/>
+	<billboardmat file="BlackGumBillboardWinter.material"/>
+</model>

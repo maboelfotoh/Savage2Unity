@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<material>
+	<parameters vDiffuseColor="1.0 1.0 1.1" fSpecularLevel="0" fGlossiness="0" fBumpLevel="1.0000" fOpacity="0.5000"></parameters>
+	<phase name="shadow" vs="mesh_shadow_opacity" ps="mesh_shadow_opacity" srcblend="BLEND_ONE" dstblend="BLEND_ZERO" alphatest="true" translucent="false" cull="CULL_NONE">
+		<sampler name="opacity" texture="palm.tga" repeat_u="true" repeat_v="true" scale_u="1.0000" scale_v="1.0000" fps="15" mipmaps="true" fullquality="true" nocompress="true" filtering="true" border="false"></sampler>
+	</phase>
+	<phase name="depth" vs="mesh_depth_opacity" ps="mesh_depth_opacity" srcblend="BLEND_ONE" dstblend="BLEND_ZERO" alphatest="true" translucent="false" cull="CULL_NONE">
+		<sampler name="opacity" texture="palm.tga" repeat_u="true" repeat_v="true" scale_u="1.0000" scale_v="1.0000" fps="15" mipmaps="true" fullquality="true" nocompress="true" filtering="true" border="false"></sampler>
+	</phase>
+	<phase name="color" vs="mesh_unshadowed_foliage" ps="mesh_unshadowed_flat" srcblend="BLEND_ONE" dstblend="BLEND_ZERO" alphatest="true" translucent="false" cull="CULL_BACK">
+		<sampler name="diffuse" texture="palm.tga" repeat_u="true" repeat_v="true" scale_u="1.0000" scale_v="1.0000" fps="15" mipmaps="true" fullquality="true" nocompress="true" filtering="true" border="false"></sampler>
+	</phase>
+</material>
+ 

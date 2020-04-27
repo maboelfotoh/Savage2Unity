@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="lightning3" file="lightning3.model" type="K2">
+	<skin name="thunderstorm">
+		<reference mesh="lightning3" material="thunderstorm/lightning.material"/>
+	</skin>
+</model>

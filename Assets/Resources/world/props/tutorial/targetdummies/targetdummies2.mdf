@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="targetDummy.max" file="targetdummies2.model" type="K2" >
+
+	<anim name="idle" numframes="1" startframe="0" clip="targetdummies2.clip"/>
+	<anim name="death" numframes="100" startframe="1" clip="targetdummies2.clip" loop="true" loopbackframe="100" fps="30"/>
+	
+</model>

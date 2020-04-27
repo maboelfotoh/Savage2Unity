@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="firecauldron.max" file="firecauldron.model" type="K2" >
+
+<anim name="idle" clip="firecauldron.clip" numframes="100" startframe="0" fps="30"  loop="true">
+	<startevent frame="0" cmd="StartEffect /shared/effects/campfire.effect "/>
+</anim>
+
+</model>

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="sac_shrine_death">
+	<definitions>
+		<particlesystem name="system0" space="world">
+
+			
+
+			<light
+				life="4000"		
+				startcolor="5 2 0"
+				endcolor="0 0 0"
+				position="0 0 100"
+				falloff="400"
+				timenudge="0"
+			/>
+
+
+
+			<simpleemitter			
+				spawnrate="350"
+				count="10"
+				minparticlelife="1500"
+				maxparticlelife="4000"
+				gravity="-2"
+				speed="20"
+				drag="0"
+				acceleration="0.0"
+				position="0 0 100"
+				inheritvelocity="0"	
+				material="/shared/effects/materials/fireball_3d.material"
+				offsetsphere="30 30 100"
+				timenudge="0"
+			>
+				<particle minangle="0"
+					maxangle="360"
+					minanglespeed="-30"
+					startcolor="1 .8 .8"
+					endcolor="0 0 0"
+					maxanglespeed="30"
+					startframe=".3"
+					endframe="1"
+
+					startsize="0"
+					minmidsize="100"
+					maxmidsize="200"
+
+					minendsize="250"
+					maxendsize="320"
+
+
+					midsizepos=".051"
+					startalpha="0"
+					midalpha="1"
+					endalpha="0"
+					midalphapos=".1"
+					
+				/>
+			</simpleemitter>
+
+			<simpleemitter			
+				spawnrate="350"
+				count="10"
+				minparticlelife="1500"
+				maxparticlelife="4000"
+				gravity="-2"
+				speed="20"
+				drag="0"
+				acceleration="0.0"
+				position="-40 -80 100"
+				inheritvelocity="0"	
+				material="/shared/effects/materials/fireball_3d.material"
+				offsetsphere="101 150 100"
+				timenudge="0"
+			>
+				<particle minangle="0"
+					maxangle="360"
+					minanglespeed="-30"
+					startcolor="1 .8 .8"
+					endcolor="0 0 0"
+					maxanglespeed="30"
+					startframe=".3"
+					endframe="1"
+
+					startsize="0"
+					minmidsize="100"
+					maxmidsize="200"
+
+					minendsize="250"
+					maxendsize="320"
+
+
+					midsizepos=".051"
+					startalpha="0"
+					midalpha="1"
+					endalpha="0"
+					midalphapos=".1"
+					
+				/>
+			</simpleemitter>
+
+
+
+			
+
+
+			<simpleemitter
+				bone="_bone_burst05"			
+				spawnrate="30"
+				count="105"
+				minparticlelife="1500"
+				maxparticlelife="2000"
+				gravity="-2"
+				speed="20"
+				drag="0"
+				acceleration="0.0"
+				position="0 0  0"
+				inheritvelocity="0"	
+				material="/shared/effects/materials/fireball_3d.material"
+				offsetsphere="44 44 15"
+				timenudge="-200"
+			>
+				<particle minangle="0"
+					maxangle="360"
+					minanglespeed="-30"
+					startcolor="0 0 0"
+					midcolor=".3 .3 .3"
+					endcolor="0 0 0"
+					midcolorpos=".1"
+					maxanglespeed="30"
+					startframe=".3"
+					endframe="1"
+
+					startsize="100"
+
+
+					minendsize="200"
+					maxendsize="800"
+
+
+					midsizepos=".051"
+					startalpha="0"
+					midalpha="1"
+					endalpha="0"
+					midalphapos=".1"
+					
+				/>
+			</simpleemitter>
+
+
+
+
+			<simpleemitter
+				bone="_bone_burst04"			
+				spawnrate="20"
+				count="70"
+				minparticlelife="1500"
+				maxparticlelife="2000"
+				gravity="-2"
+				speed="20"
+				drag="0"
+				acceleration="0.0"
+				position="0 0  80"
+				inheritvelocity="0"	
+				material="/shared/effects/materials/smoke_particle.material"
+				offsetsphere="44 44 80"
+				timenudge="-200"
+			>
+				<particle minangle="0"
+					maxangle="360"
+					minanglespeed="-30"
+					
+					color=".2 .2 .2"
+					
+					maxanglespeed="30"
+					startframe=".3"
+					endframe="1"
+
+					startsize="100"
+
+
+					minendsize="100"
+					maxendsize="200"
+
+
+					midsizepos=".051"
+					startalpha="0"
+					midalpha=".8"
+					endalpha="0"
+					midalphapos=".8"
+					
+				/>
+			</simpleemitter>
+
+			<simpleemitter
+						
+				spawnrate="20"
+				count="205"
+				minparticlelife="1500"
+				maxparticlelife="5000"
+				gravity="-2"
+				speed="20"
+				drag="0"
+				acceleration="0.0"
+				position="0 0  0"
+				inheritvelocity="0"	
+				material="/shared/effects/materials/smoke_particle.material"
+				offsetsphere="44 44 15"
+				timenudge="-200"
+			>
+				<particle minangle="0"
+					maxangle="360"
+					minanglespeed="-30"
+					
+					color=".2 .2 .2"
+					
+					maxanglespeed="30"
+					startframe=".3"
+					endframe="1"
+
+					startsize="100"
+
+
+					minendsize="250"
+					maxendsize="300"
+
+
+					midsizepos=".051"
+					startalpha="0"
+					midalpha="1"
+					endalpha="0"
+					midalphapos=".8"
+					
+				/>
+			</simpleemitter>
+
+			<simpleemitter			
+				spawnrate="10"
+				count="90"
+				minparticlelife="1500"
+				maxparticlelife="4000"
+				gravity="-2"
+				speed="20"
+				drag="0"
+				acceleration="0.0"
+				position="0 0 0 "
+				inheritvelocity="0"	
+				material="/shared/effects/materials/fireball_3d.material"
+				offsetsphere="100 100 50"
+				timenudge="-600"
+			>
+				<particle minangle="0"
+					maxangle="360"
+					minanglespeed="-30"
+					startcolor="0 0 0"
+					midcolor=".5 .5 .5"
+					endcolor="0 0 0"
+					maxanglespeed="30"
+					startframe=".3"
+					endframe="1"
+
+					startsize="0"
+					minmidsize="100"
+					maxmidsize="150"
+
+					minendsize="250"
+					maxendsize="320"
+
+
+					midsizepos=".051"
+					startalpha="0"
+					midalpha="1"
+					endalpha="0"
+					midalphapos=".1"
+					
+				/>
+			</simpleemitter>
+<!--
+			<simpleemitter			
+				spawnrate="60"
+				count="100"
+				minparticlelife="2500"
+				maxparticlelife="4000"
+				gravity="-2"
+				speed="2"
+				drag="0"
+				acceleration="0.0"
+				position="0 0 0"
+				inheritvelocity="0"	
+				material="/shared/effects/materials/fireball_3d.material"
+				offsetsphere="235 235 0"
+				timenudge="-800"
+			>
+				<particle minangle="0"
+					maxangle="360"
+					minanglespeed="-30"
+					startcolor="1 .8 .8"
+					endcolor="0 0 0"
+					maxanglespeed="30"
+					startframe=".3"
+					endframe="1"
+
+					startsize="0"
+					minmidsize="100"
+					maxmidsize="150"
+
+					minendsize="250"
+					maxendsize="320"
+
+
+					midsizepos=".051"
+					startalpha="0"
+					midalpha="1"
+					endalpha="0"
+					midalphapos=".1"
+					
+				/>
+			</simpleemitter>
+
+
+			<simpleemitter			
+				spawnrate="60"
+				count="150"
+				minparticlelife="2500"
+				maxparticlelife="3000"
+				gravity="-1"
+				speed="2"
+				drag="0"
+				acceleration="0.0"
+				position="0 0 0"
+				inheritvelocity="0"	
+				material="/shared/effects/materials/dust.material"
+				offsetsphere="285 285 0"
+				timenudge="0"
+			>
+				<particle minangle="0"
+					maxangle="360"
+					minanglespeed="-30"
+					color="1 .8 .8"
+					
+					maxanglespeed="30"
+					startframe=".3"
+					endframe="1"
+
+					startsize="0"
+					minmidsize="100"
+					maxmidsize="150"
+
+					minendsize="250"
+					maxendsize="320"
+
+
+					midsizepos=".051"
+					startalpha="0"
+					midalpha="1"
+					endalpha="0"
+					midalphapos=".1"
+					
+				/>
+			</simpleemitter>
+
+
+
+			<simpleemitter			
+				spawnrate="60"
+				count="150"
+				minparticlelife="2500"
+				maxparticlelife="7000"
+				gravity="-1"
+				speed="30"
+				drag="0"
+				acceleration="0.0"
+				position="0 0 0"
+				inheritvelocity="0"	
+				material="/shared/effects/materials/smoke_particle.material"
+				offsetsphere="30 30 0"
+				timenudge="1000"
+			>
+				<particle minangle="0"
+					maxangle="360"
+					minanglespeed="-30"
+					startcolor=".7 .2 0"
+					midcolor=".2 .2 .2"
+					endcolor=".2 .2 .2"
+					
+					maxanglespeed="30"
+					startframe=".3"
+					endframe="1"
+
+					startsize="0"
+					minmidsize="100"
+					maxmidsize="150"
+
+					minendsize="250"
+					maxendsize="320"
+
+
+					midsizepos=".051"
+					startalpha="0"
+					midalpha="1"
+					endalpha="0"
+					midalphapos=".1"
+					
+				/>
+			</simpleemitter>
+
+
+-->
+		
+
+
+
+		
+        
+      </particlesystem>
+   </definitions>
+   <thread>
+      <spawnparticlesystem instance="instance0" particlesystem="system0" />
+
+		<playsound sound="/human/units/steambuchet/sounds/land_explosion.mp3" />
+		
+		<camerashake scale="100" radius="5000" duration="2000" frequency="0" />
+		<wait duration="2000" />
+      <waitfordeath instance="instance0" />
+      <!-- <die /> -->
+   </thread>
+</effect>
+
+<!-- [min|max][start|mid|end]property[speed][position] -->
+
+
+	

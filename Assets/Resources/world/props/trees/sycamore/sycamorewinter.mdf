@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Sycamore (Winter)" file="Sycamore_RT_Winter.spt" type="SpeedTree">
+	<branchmat file="SycamoreBark.material"/>
+	<frondmat file="SycamoreFrondWinter.material"/>
+	<billboardmat file="SycamoreBillboardWinter.material"/>
+</model>

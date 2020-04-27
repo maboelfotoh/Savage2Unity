@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="palm_tree" file="palm.model" type="K2">
+<skin name="default"><reference mesh="&lt;-multiple-&gt;" material="palms.material"/></skin>
+</model>

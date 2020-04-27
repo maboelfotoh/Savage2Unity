@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="NewScarOpitmized_deathBuild03.max" file="scar_sacraficial_shrine.model" type="K2" >
+
+	<anim name="place" clip="scar_sacraficial_shrine.clip" numframes="1" loop="true" startframe="1301" fps="20">
+		<startevent cmd="StartEffect /beast/buildings/effects/transparent.effect 0"/>
+		<endevent cmd="StopEffect 0" />
+	</anim>
+
+	<anim name="build" clip="scar_sacraficial_shrine.clip" numframes="950" startframe="350" >
+		<startevent cmd="StartEffect /world/props/scar/effects/littleDemonBuild.effect 1" />
+		<startevent cmd="StartEffect /world/props/scar/effects/sac_light.effect 2" />
+		<endevent cmd="StopEffect 1" />
+		<endevent cmd="StopEffect 2" />
+	</anim>
+
+	<anim name="idle" clip="scar_sacraficial_shrine.clip" numframes="1" loop="true" startframe="1300" fps="20">
+		<startevent cmd="PlaySoundLooping /world/props/scar/sounds/posessed_souls.mp3 200 1 0 100 200"/>
+		<startevent cmd="PlaySoundLooping /shared/sounds/effects/fire_2.mp3 100 0.3 1 100 200"/>
+		<startevent cmd="StartEffect /world/props/scar/effects/torch.effect 5"/>
+		<startevent cmd="StartEffect /world/props/scar/effects/eye_flame.effect 6"/>
+		<startevent cmd="StartEffect /world/props/scar/effects/sac_smoke.effect 7"/> 
+		<startevent cmd="StartEffect /world/props/scar/effects/sac_light.effect 8"/>
+		<endevent cmd="StopSound 0"/>
+		<endevent cmd="StopSound 1"/>	
+		<endevent cmd="StopEffect 5" />
+		<endevent cmd="StopEffect 6" />
+		<endevent cmd="StopEffect 7" />
+		<endevent cmd="StopEffect 8" />
+	</anim>
+	
+	<anim name="death" clip="scar_sacraficial_shrine.clip" numframes="298" startframe="1302" loop="true" loopbackframe="1660">
+		<startevent cmd="StartEffect /world/props/scar/effects/sac_light.effect 9"/>
+		<startevent cmd="StartEffect /world/props/scar/effects/sac_shrine_death.effect 10"/>
+		<endevent cmd="StopEffect 9"/>
+		<endevent cmd="StopEffect 10"/>
+	</anim>
+
+</model>

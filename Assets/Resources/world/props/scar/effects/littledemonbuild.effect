@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="littleDemons">
+
+	<definitions>
+		<particlesystem name="system0" space="world">
+		
+		<billboard
+			bone="Bip01 R Hand"
+			life="28000"
+			startcolor="1 0 0 "
+			midcolor="1 .5 0"
+			endcolor="0 0 0"
+			material="/shared/effects/materials/whitedot.material"
+			size="50"
+			
+			
+		/>
+		
+		<billboard
+			bone="Bip01 L Hand"
+			life="28000"
+			startcolor="1 0 0 "
+			midcolor="1 .5 0"
+			endcolor="0 0 0"
+			material="/shared/effects/materials/whitedot.material"
+			size="50"
+			
+			
+		/>
+		
+		<billboard
+			bone="Bip02 R Hand"
+			life="28000"
+			startcolor="1 0 0 "
+			midcolor="1 .5 0"
+			endcolor="0 0 0"
+			material="/shared/effects/materials/whitedot.material"
+			size="50"
+			
+			
+		/>
+		
+		<billboard
+			bone="Bip02 L Hand"
+			life="28000"
+			startcolor="1 0 0 "
+			midcolor="1 .5 0"
+			endcolor="0 0 0"
+			material="/shared/effects/materials/whitedot.material"
+			size="50"
+			
+			
+		/>
+		
+		<billboard
+			bone="Bip03 R Hand"
+			life="28000"
+			startcolor="1 0 0 "
+			midcolor="1 .5 0"
+			endcolor=" 0 0 0"
+			material="/shared/effects/materials/whitedot.material"
+			size="50"
+			
+			
+		/>
+		
+		<billboard
+			bone="Bip03 L Hand"
+			life="28000"
+			startcolor="1 0 0 "
+			midcolor="1 .5 0"
+			endcolor="0 0 0"
+			material="/shared/effects/materials/whitedot.material"
+			size="50"
+			
+			
+		/>
+		
+		<billboard
+			bone="Bip04 R Hand"
+			life="28000"
+			startcolor="1 0 0 "
+			midcolor="1 .5 0"
+			endcolor="0 0 0"
+			material="/shared/effects/materials/whitedot.material"
+			size="50"
+			
+			
+		/>
+		
+		<billboard
+			bone="Bip04 L Hand"
+			life="28000"
+			startcolor="1 0 0 "
+			midcolor="1 .5 0"
+			endcolor="0 0 0"
+			material="/shared/effects/materials/whitedot.material"
+			size="50"
+			
+			
+		/>
+		<!--<simpleemitter
+			bone="Bip01 R Hand"
+			spawnrate="20"
+			particlelife="50"
+			gravity="-1"
+			speed="2"
+			drag=".5"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="15"
+			direction="0 0 0"
+			material="/shared/effects/materials/whitedot.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="0"
+				maxanglespeed="70"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".2"
+				startframe="-5"
+				endframe="1"
+				size="50"
+				
+				startcolor=".8 .2 0"
+				midcolor-="1 1 0"
+				endcolor=".2 0 0"
+				startanchor="0"
+				endanchor="0"
+			/>
+		</simpleemitter>  -->
+		
+	<!--	<simpleemitter
+			bone="Bip01 L Hand"
+			spawnrate="10"
+			particlelife="850"
+			gravity="10"
+			speed="50"
+			drag=".5"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="15"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust2.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="-180"
+				maxangle="180"
+				minanglespeed="0"
+				maxanglespeed="10"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".2"
+				startframe="-5"
+				endframe="1"
+				startsize="20"
+				endsize="100"
+				startcolor=".8 .2 0"
+				midcolor-="1 0 0"
+				startanchor="0"
+				endanchor="0"
+			/>
+		</simpleemitter> -->
+		
+		<simpleemitter
+			bone="Bip01 Head"
+			life="23000"
+			spawnrate="3"
+			particlelife="2500"
+			gravity="-1"
+			speed="50"
+			drag=".5"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="15"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust2.material"
+			offsetsphere="0 0 0 "
+			
+		>
+			<particle
+				minangle="-180"
+				maxangle="180"
+				minanglespeed="0"
+				maxanglespeed="10"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".2"
+				startframe="-5"
+				endframe="1"
+				startsize="50"
+				endsize="150"
+				startcolor=".8 .2 0"
+				midcolor-="1 0 0"
+				startanchor="0"
+				endanchor="0"
+				delay="17000"
+				
+				/>
+				</simpleemitter>
+				
+				<simpleemitter
+			bone="Bip02 Head"
+			life="23000"
+			spawnrate="3"
+			particlelife="2500"
+			gravity="-1"
+			speed="50"
+			drag=".5"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="15"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust2.material"
+			offsetsphere="0 0 0 "
+			
+		>
+			<particle
+				minangle="-180"
+				maxangle="180"
+				minanglespeed="0"
+				maxanglespeed="10"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".2"
+				startframe="-5"
+				endframe="1"
+				startsize="50"
+				endsize="150"
+				startcolor=".8 .2 0"
+				midcolor-="1 0 0"
+				startanchor="0"
+				endanchor="0"
+				delay="17000"
+				/>
+				</simpleemitter>
+				
+				<simpleemitter
+			bone="Bip03 Head"
+			life="23000"
+			spawnrate="3"
+			particlelife="2500"
+			gravity="-1"
+			speed="50"
+			drag=".5"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="15"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust2.material"
+			offsetsphere="0 0 0 "
+			
+		>
+			<particle
+				minangle="-180"
+				maxangle="180"
+				minanglespeed="0"
+				maxanglespeed="10"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".2"
+				startframe="-5"
+				endframe="1"
+				startsize="50"
+				endsize="150"
+				startcolor=".8 .2 0"
+				midcolor-="1 0 0"
+				startanchor="0"
+				endanchor="0"
+				
+				
+				/>
+				</simpleemitter>
+				
+				<simpleemitter
+			bone="Bip04 Head"
+			life="23000"
+			spawnrate="3"
+			particlelife="2500"
+			gravity="-1"
+			speed="50"
+			drag=".5"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="15"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust2.material"
+			offsetsphere="0 0 0 "
+			
+		>
+			<particle
+				minangle="-180"
+				maxangle="180"
+				minanglespeed="0"
+				maxanglespeed="10"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".2"
+				startframe="-5"
+				endframe="1"
+				startsize="50"
+				endsize="150"
+				startcolor=".8 .2 0"
+				midcolor-="1 0 0"
+				startanchor="0"
+				endanchor="0"
+				
+				
+				/>
+				</simpleemitter>
+		
+			
+			
+		
+		
+
+		
+	
+		
+        
+		</particlesystem>
+	</definitions>
+
+	<thread>
+     		<spawnparticlesystem instance="instance0" particlesystem="system0"/>
+        		<waitfordeath instance="instance0"/>
+        		<!-- <die /> -->
+	</thread>
+
+</effect>
+
+<!-- [min|max][start|mid|end]property[speed][position] -->

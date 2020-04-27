@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: adfb4969c85a0d846ab768e3d4b4c674
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 1989289236423521904
+    second: Default Take
+  - first:
+      74: 4155013262543379774
+    second: attack_0
+  - first:
+      74: -5916649853471409691
+    second: attack_1
+  - first:
+      74: -839228454640597260
+    second: attack_2
+  - first:
+      74: -8924490425942310266
+    second: attack_fwd
+  - first:
+      74: -3191739438883079027
+    second: block_smooth
+  - first:
+      74: 5053173881275768260
+    second: carnivore
+  - first:
+      74: 2477121117651324923
+    second: dazed
+  - first:
+      74: -6758483313513240000
+    second: death
+  - first:
+      74: 8784278156133277033
+    second: defeat
+  - first:
+      74: 4415000735528535509
+    second: dodge_back
+  - first:
+      74: -6217952386690083393
+    second: dodge_left
+  - first:
+      74: 5198944745992629760
+    second: dodge_right
+  - first:
+      74: -8712251965013605999
+    second: enraged_blow
+  - first:
+      74: -8821985674683011911
+    second: fear
+  - first:
+      74: 9074068648872845406
+    second: gun_arm_new
+  - first:
+      74: 1926515101661509785
+    second: gun_arm_test
+  - first:
+      74: 5955222328164329675
+    second: gun_fire
+  - first:
+      74: 9140648327377092124
+    second: gun_idle
+  - first:
+      74: -5252816984213320552
+    second: idle
+  - first:
+      74: 2025990302966867764
+    second: interrupt
+  - first:
+      74: -2993534804863918692
+    second: jump
+  - first:
+      74: 2970922166220768068
+    second: jump_attack
+  - first:
+      74: 4461826734956849724
+    second: land
+  - first:
+      74: 114944838403331432
+    second: portrait_idle
+  - first:
+      74: -8695959665515358402
+    second: rage
+  - first:
+      74: -6741457155052679871
+    second: res
+  - first:
+      74: 6984951911662648169
+    second: run_back
+  - first:
+      74: -4314654207719642980
+    second: run_fwd
+  - first:
+      74: -5586075063931613527
+    second: run_fwd_tweaked
+  - first:
+      74: -890620406490652115
+    second: selection_idle
+  - first:
+      74: 925568251084215075
+    second: sprint_fwd
+  - first:
+      74: 8510150600120665494
+    second: taunt
+  - first:
+      74: -3626103336033818309
+    second: tired
+  - first:
+      74: -4684037610281533016
+    second: turn_left
+  - first:
+      74: -6345241042640424177
+    second: turn_right
+  - first:
+      74: -6703798559713786809
+    second: venom2
+  - first:
+      74: 5029710099000895372
+    second: victory
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

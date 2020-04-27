@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="water.max" file="prop_water.model" type="K2">
+	<skin name="default">
+		<reference mesh="Plane01" material="prop_water.material"/>
+	</skin>
+</model>

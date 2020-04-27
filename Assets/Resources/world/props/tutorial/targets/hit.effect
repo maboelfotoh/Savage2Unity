@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="modifier2">
+	<definitions>
+		<modifier
+			life="500"
+			startcolor="6 1.0 1.0"
+			midcolor="4 1.0 1.0"
+			endcolor="1.0 1.0 1.0"
+			startalpha="1.0"
+			endalpha="1.0"
+		/>
+			
+		
+	</definitions>
+	<thread>	
+		<spawnmodifier instance="instance0" />
+		<waitfordeath instance="instance0" />
+		<!-- <die /> -->
+	</thread>
+</effect>
+
+
+<!-- [min|max][start|mid|end]property[speed][position] -->

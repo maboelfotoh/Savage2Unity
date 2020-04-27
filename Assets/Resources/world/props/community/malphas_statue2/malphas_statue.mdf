@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Malphas_statue" file="/hellbourne/units/malphas/character.model" type="K2">
+<skin name="default"><reference mesh="body" material="statue.material"/></skin>
+<anim name="idle" clip="/hellbourne/units/malphas/clips/taunt.clip" startframe="130"/>
+</model>

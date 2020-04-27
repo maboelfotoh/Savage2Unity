@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<material>
+   <parameters vDiffuseColor="1.0000 1.0000 1.0000" fSpecularLevel="1.0000" fGlossiness="125" fBumpLevel="2.0000" fOpacity=".80">
+	   <float name="fSpeed" value="0.04"/>
+   </parameters>
+   <phase name="color" vs="water" ps="water" srcblend="BLEND_SRC_ALPHA" dstblend="BLEND_ONE_MINUS_SRC_ALPHA" translucent="true" cull="CULL_BACK">
+      <sampler name="diffuse" texture="/world/props/nature/waterfall2/w1_d.tga" repeat_u="true" repeat_v="true" scale_u=".5000" scale_v=".5000" fps="15" mipmaps="true" fullquality="true" nocompress="false" filtering="true" border="false"></sampler>
+      <sampler name="normalmap1" texture="/world/props/nature/waterfall2/w1_n.tga" repeat_u="true" repeat_v="true" scale_u=".7500" scale_v=".7500" fps="15" mipmaps="true" fullquality="true" nocompress="false" filtering="true" border="false"></sampler>
+      <sampler name="normalmap2" texture="/world/props/nature/waterfall2/w1_n.tga" repeat_u="true" repeat_v="true" scale_u="1.0000" scale_v="1.0000" fps="15" mipmaps="true" fullquality="true" nocompress="false" filtering="true" border="false"></sampler>
+      <samplerCUBE name="cube" texture="/world/sky/deadlock/1.tga" fps="15" mipmaps="true" fullquality="false" nocompress="false"></samplerCUBE>
+   </phase>
+</material>

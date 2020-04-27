@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="camp_stuff05.max" file="hut.model" type="K2" >
+
+<anim name="idle" clip="hut.clip" startframe="0" numframes="100" />
+		
+</model>

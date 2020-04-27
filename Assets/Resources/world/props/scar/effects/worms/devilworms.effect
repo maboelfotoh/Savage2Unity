@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="worms">
+	<definitions>
+		<particlesystem name="system0" space="world">
+		
+		<!-- =============== repairing dust ===================== -->
+				<simpleemitter
+			bone="_bone01"
+			spawnrate="10"
+			life="19000"
+			particlelife="3500"		
+			gravity="-5"
+			speed="105"
+			drag="0.0"
+			acceleration="0.0"
+			position="0 0 -60"
+			minangle="0"
+			maxangle="0"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="200 200 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="50"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				endsize="420"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+
+						<simpleemitter
+			bone="_bone03"
+			spawnrate="10"
+			life="19000"
+			particlelife="3500"		
+			gravity="-5"
+			speed="105"
+			drag="0.0"
+			acceleration="0.0"
+			position="0 0 -60"
+			minangle="0"
+			maxangle="0"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="200 200 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="50"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				endsize="420"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+		
+						<simpleemitter
+			bone="_bone05"
+			spawnrate="10"
+			life="19000"
+			particlelife="3500"		
+			gravity="-5"
+			speed="105"
+			drag="0.0"
+			acceleration="0.0"
+			position="0 0 -60"
+			minangle="0"
+			maxangle="0"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="200 200 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="50"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				endsize="420"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+		
+						<simpleemitter
+			bone="_bone07"
+			spawnrate="10"
+			life="19000"
+			particlelife="3500"		
+			gravity="-5"
+			speed="105"
+			drag="0.0"
+			acceleration="0.0"
+			position="0 0 -60"
+			minangle="0"
+			maxangle="0"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="200 200 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="50"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				endsize="420"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+		
+						<simpleemitter
+			bone="_bone09"
+			spawnrate="10"
+			life="19000"
+			particlelife="3500"		
+			gravity="-5"
+			speed="105"
+			drag="0.0"
+			acceleration="0.0"
+			position="0 0 -60"
+			minangle="0"
+			maxangle="0"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="200 200 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="50"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				endsize="420"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+		
+						<simpleemitter
+			bone="_bone11"
+			spawnrate="10"
+			life="19000"
+			particlelife="3500"		
+			gravity="-5"
+			speed="105"
+			drag="0.0"
+			acceleration="0.0"
+			position="0 0 -60"
+			minangle="0"
+			maxangle="0"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="200 200 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="50"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				endsize="420"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+		
+						<simpleemitter
+			bone="_bone13"
+			spawnrate="10"
+			life="19000"
+			particlelife="3500"		
+			gravity="-5"
+			speed="105"
+			drag="0.0"
+			acceleration="0.0"
+			position="0 0 -60"
+			minangle="0"
+			maxangle="0"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="200 200 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="50"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				endsize="420"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				startanchor="0"
+				endanchor="0.0"
+			/>
+		</simpleemitter>
+
+		<!-- =============== calls the worm model=================== -->
+			<model
+				delay="17000"
+				name="worms"
+				bone="_bone06"
+				model="/world/props/scar/effects/worms/worms.mdf"
+				anim="idle"
+				yawspeed="25"
+				scale="0.3"
+				position="0.0 0.0 0.0"
+				directionalspace="global"
+			/>
+			
+		<!-- ================ makes the worms glow ================ -->	
+				<simpleemitter
+					owner="worms"
+					bone="_bone_worm01"
+					spawnrate="15"
+					particlelife="300"
+					material="/shared/effects/materials/whitedot.material"
+				>
+				<particle
+					startcolor="0 0 1"
+					endcolor="0.0 0.0 0.0"
+					midcolor=".2 0 1"
+					midcolorpos="0.5"
+					startalpha="1.0"
+					endalpha="0.0"
+					minangle="0"
+					maxangle="360"
+					minanglespeed="-5"
+					maxanglespeed="5"
+					width="16.0"
+					startheight="15.0"
+					endheight="100.0"
+					flare="false"
+					turn="false"
+				/>
+			</simpleemitter>
+			
+						<simpleemitter
+					owner="worms"
+					bone="_bone_worm02"
+					spawnrate="30"
+					particlelife="300"
+					material="/shared/effects/materials/whitedot.material"
+				>
+				<particle
+					startcolor="0 0 1"
+					endcolor="0.0 0.0 0.0"
+					midcolor=".2 0 1"
+					midcolorpos="0.5"
+					startalpha="1.0"
+					endalpha="0.0"
+					minangle="0"
+					maxangle="360"
+					minanglespeed="-5"
+					maxanglespeed="5"
+					width="16.0"
+					startheight="15.0"
+					endheight="100.0"
+					flare="false"
+					turn="false"
+				/>
+			</simpleemitter>
+			
+						<simpleemitter
+					owner="worms"
+					bone="_bone_worm03"
+					spawnrate="30"
+					particlelife="300"
+					material="/shared/effects/materials/whitedot.material"
+				>
+				<particle
+					startcolor="0 0 1"
+					endcolor="0.0 0.0 0.0"
+					midcolor=".2 0 1"
+					midcolorpos="0.5"
+					startalpha="1.0"
+					endalpha="0.0"
+					minangle="0"
+					maxangle="360"
+					minanglespeed="-5"
+					maxanglespeed="5"
+					width="16.0"
+					startheight="15.0"
+					endheight="100.0"
+					flare="false"
+					turn="false"
+				/>
+			</simpleemitter>
+			
+						<simpleemitter
+					owner="worms"
+					bone="_bone_worm04"
+					spawnrate="30"
+					particlelife="300"
+					material="/shared/effects/materials/whitedot.material"
+				>
+				<particle
+					startcolor="0 0 1"
+					endcolor="0.0 0.0 0.0"
+					midcolor=".2 0 1"
+					midcolorpos="0.5"
+					startalpha="1.0"
+					endalpha="0.0"
+					minangle="0"
+					maxangle="360"
+					minanglespeed="-5"
+					maxanglespeed="5"
+					width="16.0"
+					startheight="15.0"
+					endheight="100.0"
+					flare="false"
+					turn="false"
+				/>
+			</simpleemitter>
+			
+						<simpleemitter
+					owner="worms"
+					bone="_bone_worm05"
+					spawnrate="30"
+					particlelife="300"
+					material="/shared/effects/materials/whitedot.material"
+				>
+				<particle
+					startcolor="0 0 1"
+					endcolor="0.0 0.0 0.0"
+					midcolor=".2 0 1"
+					midcolorpos="0.5"
+					startalpha="1.0"
+					endalpha="0.0"
+					minangle="0"
+					maxangle="360"
+					minanglespeed="-5"
+					maxanglespeed="5"
+					width="16.0"
+					startheight="15.0"
+					endheight="100.0"
+					flare="false"
+					turn="false"
+				/>
+			</simpleemitter>
+			
+						<simpleemitter
+					owner="worms"
+					bone="_bone_worm06"
+					spawnrate="30"
+					particlelife="300"
+					material="/shared/effects/materials/whitedot.material"
+				>
+				<particle
+					startcolor="0 0 1"
+					endcolor="0.0 0.0 0.0"
+					midcolor=".2 0 1"
+					midcolorpos="0.5"
+					startalpha="1.0"
+					endalpha="0.0"
+					minangle="0"
+					maxangle="360"
+					minanglespeed="-5"
+					maxanglespeed="5"
+					width="16.0"
+					startheight="15.0"
+					endheight="100.0"
+					flare="false"
+					turn="false"
+				/>
+			</simpleemitter>
+			
+						<simpleemitter
+					owner="worms"
+					bone="_bone_worm07"
+					spawnrate="30"
+					particlelife="300"
+					material="/shared/effects/materials/whitedot.material"
+				>
+				<particle
+					startcolor="0 0 1"
+					endcolor="0.0 0.0 0.0"
+					midcolor=".2 0 1"
+					midcolorpos="0.5"
+					startalpha="1.0"
+					endalpha="0.0"
+					minangle="0"
+					maxangle="360"
+					minanglespeed="-5"
+					maxanglespeed="5"
+					width="16.0"
+					startheight="15.0"
+					endheight="100.0"
+					flare="false"
+					turn="false"
+				/>
+			</simpleemitter>
+			
+						<simpleemitter
+					owner="worms"
+					bone="_bone_worm01"
+					spawnrate="30"
+					particlelife="300"
+					material="/shared/effects/materials/whitedot.material"
+				>
+				<particle
+					startcolor="0 0 1"
+					endcolor="0.0 0.0 0.0"
+					midcolor=".2 0 1"
+					midcolorpos="0.5"
+					startalpha="1.0"
+					endalpha="0.0"
+					minangle="0"
+					maxangle="360"
+					minanglespeed="-5"
+					maxanglespeed="5"
+					width="16.0"
+					startheight="15.0"
+					endheight="100.0"
+					flare="false"
+					turn="false"
+				/>
+			</simpleemitter>
+			
+						<simpleemitter
+					owner="worms"
+					bone="_bone_worm08"
+					spawnrate="30"
+					particlelife="300"
+					material="/shared/effects/materials/whitedot.material"
+				>
+				<particle
+					startcolor="0 0 1"
+					endcolor="0.0 0.0 0.0"
+					midcolor=".2 0 1"
+					midcolorpos="0.5"
+					startalpha="1.0"
+					endalpha="0.0"
+					minangle="0"
+					maxangle="360"
+					minanglespeed="-5"
+					maxanglespeed="5"
+					width="16.0"
+					startheight="15.0"
+					endheight="100.0"
+					flare="false"
+					turn="false"
+				/>
+			</simpleemitter>
+			
+									<simpleemitter
+					owner="worms"
+					bone="_bone_worm_09"
+					spawnrate="30"
+					particlelife="300"
+					material="/shared/effects/materials/whitedot.material"
+				>
+				<particle
+					startcolor="0 0 1"
+					endcolor="0.0 0.0 0.0"
+					midcolor=".2 0 1"
+					midcolorpos="0.5"
+					startalpha="1.0"
+					endalpha="0.0"
+					minangle="0"
+					maxangle="360"
+					minanglespeed="-5"
+					maxanglespeed="5"
+					width="16.0"
+					startheight="15.0"
+					endheight="100.0"
+					flare="false"
+					turn="false"
+				/>
+			</simpleemitter>
+			
+									<simpleemitter
+					owner="worms"
+					bone="_bone_worm_10"
+					spawnrate="30"
+					particlelife="300"
+					material="/shared/effects/materials/whitedot.material"
+				>
+				<particle
+					startcolor="0 0 1"
+					endcolor="0.0 0.0 0.0"
+					midcolor=".2 0 1"
+					midcolorpos="0.5"
+					startalpha="1.0"
+					endalpha="0.0"
+					minangle="0"
+					maxangle="360"
+					minanglespeed="-5"
+					maxanglespeed="5"
+					width="16.0"
+					startheight="15.0"
+					endheight="100.0"
+					flare="false"
+					turn="false"
+				/>
+			</simpleemitter>
+			
+									<simpleemitter
+					owner="worms"
+					bone="_bone_worm_11"
+					spawnrate="30"
+					particlelife="300"
+					material="/shared/effects/materials/whitedot.material"
+				>
+				<particle
+					startcolor="0 0 1"
+					endcolor="0.0 0.0 0.0"
+					midcolor=".2 0 1"
+					midcolorpos="0.5"
+					startalpha="1.0"
+					endalpha="0.0"
+					minangle="0"
+					maxangle="360"
+					minanglespeed="-5"
+					maxanglespeed="5"
+					width="16.0"
+					startheight="15.0"
+					endheight="100.0"
+					flare="false"
+					turn="false"
+				/>
+			</simpleemitter>
+			
+									<simpleemitter
+					owner="worms"
+					bone="_bone_worm_12"
+					spawnrate="30"
+					particlelife="300"
+					material="/shared/effects/materials/whitedot.material"
+				>
+				<particle
+					startcolor="0 0 1"
+					endcolor="0.0 0.0 0.0"
+					midcolor=".2 0 1"
+					midcolorpos="0.5"
+					startalpha="1.0"
+					endalpha="0.0"
+					minangle="0"
+					maxangle="360"
+					minanglespeed="-5"
+					maxanglespeed="5"
+					width="16.0"
+					startheight="15.0"
+					endheight="100.0"
+					flare="false"
+					turn="false"
+				/>
+			</simpleemitter>
+			
+									<simpleemitter
+					owner="worms"
+					bone="_bone_worm_13"
+					spawnrate="30"
+					particlelife="300"
+					material="/shared/effects/materials/whitedot.material"
+				>
+				<particle
+					startcolor="0 0 1"
+					endcolor="0.0 0.0 0.0"
+					midcolor=".2 0 1"
+					midcolorpos="0.5"
+					startalpha="1.0"
+					endalpha="0.0"
+					minangle="0"
+					maxangle="360"
+					minanglespeed="-5"
+					maxanglespeed="5"
+					width="16.0"
+					startheight="15.0"
+					endheight="100.0"
+					flare="false"
+					turn="false"
+				/>
+			</simpleemitter>
+			<!-- worm effects
+				<model
+					owner="worms"
+					bone="Scene Root"
+					parentmodel="true"
+					parentskeleton="true"
+					color="1.0 1.0 1.0"
+					material="shell.material"
+				/>
+				-->
+			
+		</particlesystem>
+	</definitions>
+	<thread>
+		<spawnparticlesystem instance="instance0" particlesystem="system0" />
+		<waitfordeath instance="instance0" />
+		<!-- <die /> -->
+	</thread>
+</effect>
+
+<!-- [min|max][start|mid|end]property[speed][pos] -->
+

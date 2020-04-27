@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<material>
+	<parameters vDiffuseColor="1.0000 1.0000 1.0000" fSpecularLevel="1.0000" fGlossiness="64" fBumpLevel="0.3000" fOpacity="0.3000">
+		<float name="fDiffuseSpeed" value="0.35" />
+		<float name="fNormalmapSpeed" value="0.15" />
+	</parameters>
+ 	<phase name="color" vs="mesh_falls" ps="mesh_falls" srcblend="BLEND_SRC_ALPHA" dstblend="BLEND_ONE_MINUS_SRC_ALPHA" translucent="true" layer="2" cull="CULL_NONE">
+		<sampler name="diffuse" texture="pondcurrent_d.tga" repeat_u="true" repeat_v="true" scale_u="1.0000" scale_v="1.0000" fps="15" mipmaps="true" fullquality="false" nocompress="false" filtering="true" border="false" />
+		<sampler name="normalmap" texture="pondcurrent_d.tga" repeat_u="true" repeat_v="true" scale_u="1.0000" scale_v="1.0000" fps="15" mipmaps="true" fullquality="false" nocompress="false" filtering="true" border="false" />
+	</phase>
+</material>

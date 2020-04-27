@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="columnBroken01.max" file="column_broken.model" type="K2" >
+
+<anim name="idle" clip="column_broken.clip" startframe="0" numframes="100" />
+
+</model>
+

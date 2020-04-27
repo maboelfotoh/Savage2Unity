@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
 
         // weapon attachment test
         weapon1 = Instantiate(Resources.Load("human/units/savage/weapons/sword", typeof(GameObject))) as GameObject;
-        bone = GameObject.Find("_bone_swoosh_a_r");
+        //bone = GameObject.Find("_bone_swoosh_a_r");
         weapon1.transform.SetParent(bone.transform);
         weapon1.transform.localPosition = new Vector3(0, 0, -0.07f);
         weapon1.transform.localRotation = Quaternion.Euler(90, 0, 0);

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="sac smoketest">
+	<definitions>
+		<particlesystem name="system0" space="entity">
+			<twopointemitter
+				bone_a="_bone01"
+				bone_b="_bone02"
+				position_a="0 0 0" 
+				position_b="0 0 0 " 
+				spawnrate="10"
+				particlelife="4000"
+				gravity="0"
+				minspeed="0"
+				maxspeed="50"
+				drag=".5"
+				acceleration="0.0"
+				material="/shared/effects/materials/whitedot.material"
+				offsetsphere="0 0 5"
+			>
+				<particle 
+					minangle="0"
+					maxangle="360"
+					minanglespeed="0"
+					maxanglespeed="70"
+					startalpha="0"
+					midalpha=".3"
+					endalpha="0"
+					midalphapos=".8"
+					startframe="-5"
+					endframe="1"
+					startsize="2"
+					endsize="80"
+					color="1 0.3 0"
+					endcolor="0 0 0"
+							 />
+			</twopointemitter>
+
+			<twopointemitter
+				bone_a="_bone02"
+				bone_b="_bone03"
+				position_a="0 0 0" 
+				position_b="0 0 0 " 
+				spawnrate="10"
+				particlelife="4000"
+				gravity="0"
+				minspeed="0"
+				maxspeed="50"
+				drag=".5"
+				acceleration="0.0"
+				material="/shared/effects/materials/whitedot.material"
+				offsetsphere="0 0 5"
+			>
+				<particle 
+					minangle="0"
+					maxangle="360"
+					minanglespeed="0"
+					maxanglespeed="70"
+					startalpha="0"
+					midalpha=".3"
+					endalpha="0"
+					midalphapos=".8"
+					startframe="-5"
+					endframe="1"
+					startsize="2"
+					endsize="80"
+					color="1 0.3 0"
+					endcolor="0 0 0"
+							 />
+			</twopointemitter>
+
+			<twopointemitter
+				bone_a="_bone03"
+				bone_b="_bone04"
+				position_a="0 0 0" 
+				position_b="0 0 0 " 
+				spawnrate="10"
+				particlelife="4000"
+				gravity="0"
+				minspeed="0"
+				maxspeed="50"
+				drag=".5"
+				acceleration="0.0"
+				material="/shared/effects/materials/whitedot.material"
+				offsetsphere="0 0 5"
+			>
+				<particle 
+					minangle="0"
+					maxangle="360"
+					minanglespeed="0"
+					maxanglespeed="70"
+					startalpha="0"
+					midalpha=".3"
+					endalpha="0"
+					midalphapos=".8"
+					startframe="-5"
+					endframe="1"
+					startsize="2"
+					endsize="80"
+					color="1 0.3 0"
+					endcolor="0 0 0"
+							 />
+			</twopointemitter>
+
+			<twopointemitter
+				bone_a="_bone04"
+				bone_b="_bone05"
+				position_a="0 0 0" 
+				position_b="0 0 0 " 
+				spawnrate="10"
+				particlelife="4000"
+				gravity="0"
+				minspeed="0"
+				maxspeed="50"
+				drag=".5"
+				acceleration="0.0"
+				material="/shared/effects/materials/whitedot.material"
+				offsetsphere="0 0 5"
+			>
+				<particle 
+					minangle="0"
+					maxangle="360"
+					minanglespeed="0"
+					maxanglespeed="70"
+					startalpha="0"
+					midalpha=".3"
+					endalpha="0"
+					midalphapos=".8"
+					startframe="-5"
+					endframe="1"
+					startsize="2"
+					endsize="80"
+					color="1 0.3 0"
+					endcolor="0 0 0"
+							 />
+			</twopointemitter>		
+
+			
+			<twopointemitter
+				bone_a="_bone05"
+				bone_b="_bone01"
+				position_a="0 0 0" 
+				position_b="0 0 0 " 
+				spawnrate="10"
+				particlelife="4000"
+				gravity="0"
+				minspeed="0"
+				maxspeed="50"
+				drag=".5"
+				acceleration="0.0"
+				material="/shared/effects/materials/whitedot.material"
+				offsetsphere="0 0 5"
+			>
+				<particle 
+					minangle="0"
+					maxangle="360"
+					minanglespeed="0"
+					maxanglespeed="70"
+					startalpha="0"
+					midalpha=".3"
+					endalpha="0"
+					midalphapos=".8"
+					startframe="-5"
+					endframe="1"
+					startsize="2"
+					endsize="80"
+					color="1 0.3 0"
+					endcolor="0 0 0"
+							 />
+			</twopointemitter>		
+			
+				
+			<twopointemitter
+				bone_a="_bone_smoke07"
+				bone_b="_bone_smoke05"
+				position_a="0 0 0" 
+				position_b="0 0 0 " 
+				spawnrate="10"
+				particlelife="4000"
+				gravity="0"
+				minspeed="0"
+				maxspeed="50"
+				drag=".5"
+				acceleration="0.0"
+				material="/shared/effects/materials/whitedot.material"
+				offsetsphere="0 0 5"
+			>
+				<particle 
+					minangle="0"
+					maxangle="360"
+					minanglespeed="0"
+					maxanglespeed="70"
+					startalpha="0"
+					midalpha=".3"
+					endalpha="0"
+					midalphapos="."
+					startframe="-5"
+					endframe="1"
+					startsize="2"
+					endsize="80"
+					color="1 0.3 0"
+					endcolor="0 0 0"
+							 />
+			</twopointemitter>		
+
+			<twopointemitter
+				bone_a="_bone_smoke06"
+				bone_b="_bone_smoke09"
+				position_a="0 0 0" 
+				position_b="0 0 0 " 
+				spawnrate="10"
+				particlelife="4000"
+				gravity="0"
+				minspeed="0"
+				maxspeed="50"
+				drag=".5"
+				acceleration="0.0"
+				material="/shared/effects/materials/whitedot.material"
+				offsetsphere="0 0 5"
+			>
+				<particle 
+					minangle="0"
+					maxangle="360"
+					minanglespeed="0"
+					maxanglespeed="70"
+					startalpha="0"
+					midalpha=".3"
+					endalpha="0"
+					midalphapos=".8"
+					startframe="-5"
+					endframe="1"
+					startsize="2"
+					endsize="80"
+					color="1 0.3 0"
+							 />
+			</twopointemitter>		
+			
+			<twopointemitter
+				bone_a="_bone_smoke05"
+				bone_b="_bone_smoke09"
+				position_a="0 0 0" 
+				position_b="0 0 0 " 
+				spawnrate="10"
+				particlelife="4000"
+				gravity="0"
+				minspeed="0"
+				maxspeed="50"
+				drag=".5"
+				acceleration="0.0"
+				material="/shared/effects/materials/whitedot.material"
+				offsetsphere="0 0 5"
+			>
+				<particle 
+					minangle="0"
+					maxangle="360"
+					minanglespeed="0"
+					maxanglespeed="70"
+					startalpha="0"
+					midalpha=".3"
+					endalpha="0"
+					midalphapos=".8"
+					startframe="-5"
+					endframe="1"
+					startsize="2"
+					endsize="80"
+					color="1 0.2 0"
+					endcolor="0 0 0"
+							 />
+			</twopointemitter>	
+
+		
+
+			<simpleemitter			
+				spawnrate="5"
+				
+				minparticlelife="1500"
+				maxparticlelife="4000"
+				gravity="-2"
+				speed="20"
+				drag="0"
+				acceleration="0.0"
+				position="0 0 40 "
+				inheritvelocity="0"	
+				material="/shared/effects/materials/fireball_3d.material"
+				offsetsphere="130 130 50"
+				timenudge="-600"
+			>
+				<particle minangle="0"
+					maxangle="360"
+					minanglespeed="-30"
+					startcolor="0 0 0"
+					midcolor=".5 .5 .5"
+					endcolor="0 0 0"
+					maxanglespeed="30"
+					startframe=".3"
+					endframe="1"
+
+					startsize="0"
+					minmidsize="100"
+					maxmidsize="150"
+
+					minendsize="250"
+					maxendsize="320"
+
+
+					midsizepos=".051"
+					startalpha="0"
+					midalpha="1"
+					endalpha="0"
+					midalphapos=".1"
+					
+				/>
+			</simpleemitter>
+
+	
+
+
+
+
+
+
+		</particlesystem>
+	</definitions>
+	<thread>
+		<spawnparticlesystem instance="instance0" particlesystem="system0" />
+		<waitfordeath instance="instance0" />
+		<!-- <die /> -->
+	</thread>
+</effect>
+
+<!-- [min|max][start|mid|end]property[speed][pos] -->
+

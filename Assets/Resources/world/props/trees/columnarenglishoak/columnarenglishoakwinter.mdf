@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Columnar English Oak (Winter)" file="ColumnarEnglishOak_RT_Winter.spt" type="SpeedTree">
+	<branchmat file="ColumnarEnglishOakBark.material"/>
+	<frondmat file="ColumnarEnglishOakFrondWinter.material"/>
+	<billboardmat file="ColumnarEnglishOakBillboardWinter.material"/>
+</model>

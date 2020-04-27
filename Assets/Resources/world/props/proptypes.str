@@ -1,0 +1,35 @@
+default						stone
+
+/world/props/ruins/bridge.mdf			stone
+/world/props/ruins/struct1.mdf			stone
+/world/props/ruins/struct2.mdf			stone
+/world/props/ruins/struct3.mdf			stone
+/world/props/ruins/struct4.mdf			stone
+/world/props/arena/pool.mdf			stone
+
+/world/props/ropebridge/rope_bridge.mdf		wood
+/world/props/village/tower_construction.mdf 	wood
+/world/props/village/stone_tower.mdf		wood
+/world/props/crossroads/crossroadTower.mdf	wood
+
+/world/props/rocks/rock_a.mdf			stone
+/world/props/rocks/rock_b.mdf			stone
+/world/props/rocks/rock_c.mdf			stone
+/world/props/rocks/rock_d.mdf			stone
+/world/props/rocks/rock_e.mdf			stone
+/world/props/rocks/rock_f.mdf			stone
+/world/props/rocks/rock_g.mdf			stone
+/world/props/rocks/rock_cluster_a.mdf		stone
+/world/props/rocks/rock_cluster_b.mdf		stone
+
+/world/props/rocks/orange/rock_a.mdf		stone
+/world/props/rocks/orange/rock_b.mdf		stone
+/world/props/rocks/orange/rock_c.mdf		stone
+/world/props/rocks/orange/rock_d.mdf		stone
+/world/props/rocks/orange/rock_e.mdf		stone
+/world/props/rocks/orange/rock_f.mdf		stone
+/world/props/rocks/orange/rock_g.mdf		stone
+/world/props/rocks/orange/rock_cluster_a.mdf	stone
+/world/props/rocks/orange/rock_cluster_b.mdf	stone
+
+

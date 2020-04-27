@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<material>
+	<parameters vDiffuseColor="1.1 1.1 1.1" fSpecularLevel="1.0000" fGlossiness="85" fOpacity="1.0000" fReflect="1.0000" />
+	<phase name="shadow" vs="mesh2_shadow" ps="mesh2_shadow" srcblend="BLEND_ONE" dstblend="BLEND_ZERO" translucent="false" cull="CULL_BACK" />
+	<phase name="depth" vs="mesh2_depth" ps="mesh2_depth" srcblend="BLEND_ONE" dstblend="BLEND_ZERO" translucent="false" cull="CULL_BACK" />
+	<phase name="color" vs="mesh2_colored_shadowed" ps="mesh2_shadowed_occlusion" srcblend="BLEND_ONE" dstblend="BLEND_ZERO" translucent="false" cull="CULL_BACK" layer="0">
+		<sampler name="diffuse" texture="/world/terrain/textures/rock2_d.tga" repeat_u="true" repeat_v="true" scale_u="1.0000" scale_v="1.0000" fps="15" mipmaps="true" fullquality="true" nocompress="true" filtering="true" border="false" />
+		<sampler name="normalmap" texture="stonetile_n.tga" repeat_u="true" repeat_v="true" scale_u="1.0000" scale_v="1.0000" fps="15" mipmaps="true" fullquality="true" nocompress="true" filtering="true" border="false" />
+		<sampler name="occlusion" texture="arch_2_o.tga" repeat_u="true" repeat_v="true" scale_u="1.0000" scale_v="1.0000" fps="15" mipmaps="true" fullquality="true" nocompress="true" filtering="true" border="false" />
+	</phase>
+	<phase name="fade" vs="mesh2_colored_shadowed" ps="mesh2_shadowed_occlusion" srcblend="BLEND_SRC_ALPHA" dstblend="BLEND_ONE_MINUS_SRC_ALPHA" translucent="true" cull="CULL_BACK" layer="0">
+		<sampler name="diffuse" texture="/world/terrain/textures/rock2_d.tga" repeat_u="true" repeat_v="true" scale_u="1.0000" scale_v="1.0000" fps="15" mipmaps="true" fullquality="true" nocompress="false" filtering="true" border="false" />
+		<sampler name="normalmap" texture="stonetile_n.tga" repeat_u="true" repeat_v="true" scale_u="1.0000" scale_v="1.0000" fps="15" mipmaps="true" fullquality="true" nocompress="true" filtering="true" border="false" />
+		<sampler name="occlusion" texture="arch_2_o.tga" repeat_u="true" repeat_v="true" scale_u="1.0000" scale_v="1.0000" fps="15" mipmaps="true" fullquality="true" nocompress="true" filtering="true" border="false" />
+	</phase>
+</material>

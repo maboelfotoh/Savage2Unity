@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Chiprel_statue" file="/beast/units/summoner/character.model" type="K2">
+<skin name="default"><reference mesh="&lt;-multiple-&gt;" material="statue.material"/></skin>
+<anim name="idle" clip="/beast/units/summoner/clips/bear.clip" startframe="18"/>
+</model>

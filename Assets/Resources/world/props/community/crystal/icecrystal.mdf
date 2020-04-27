@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="" file="ice_bolt.model" type="K2">
+	<anim name="" clip="ice_bolt.clip" loop="false" />
+</model>

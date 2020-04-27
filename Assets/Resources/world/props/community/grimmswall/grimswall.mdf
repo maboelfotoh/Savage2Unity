@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Grimmswall.max" file="grimswall.model" type="K2" >
+	<anim name="idle" clip="idle.clip" loop="true" startframe="0" numframes="1"/>
+
+	<anim name="death" clip="hide.clip" startframe="0" numframes="3" loop="true" loopbackframe="-1">
+		<frameevent frame="1" cmd="starteffect crumble.effect 1"/>
+		<endevent cmd="StopEffect 1" />
+	</anim>
+
+</model>
+

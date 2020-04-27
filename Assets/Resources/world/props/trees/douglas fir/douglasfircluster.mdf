@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Douglas Fir Cluster" file="DouglasFir_Cluster.spt" type="SpeedTree">
+	<branchmat file="DouglasFirBark.material"/>
+	<frondmat file="DouglasFirFrond.material"/>
+	<leafmat file="DouglasFirNeedles.material"/>
+	<billboardmat file="DouglasFirBillboard.material"/>
+</model>

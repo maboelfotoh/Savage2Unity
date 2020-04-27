@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="low_poly_barrel" file="keg.model" type="K2">
+<skin name="default"><reference mesh="&lt;-multiple-&gt;" material="smallbox.material"/></skin>
+</model>

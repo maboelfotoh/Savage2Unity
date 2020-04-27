@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<material>
+	<parameters vDiffuseColor="1 1 1" fSpecularLevel="1" fGlossiness="0" fBumbLevel="0.3000"></parameters>
+	<phase name="color" vs="lightning" ps="sky" srcblend="BLEND_ONE" dstblend="BLEND_ONE" cull="CULL_BACK" translucent="true">
+		<sampler name="diffuse" texture="t_1_thunderstorm_lightning.tga" repeat_u="true" repeat_v="false"></sampler>
+	</phase>
+</material>

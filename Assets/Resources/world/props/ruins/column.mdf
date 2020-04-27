@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="column.max" file="column.model" type="K2" >
+
+<anim name="idle" clip="column.clip" numframes="100" startframe="0" fps="5"/>
+
+</model>

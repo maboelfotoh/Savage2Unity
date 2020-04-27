@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="sky_top" file="sky_top.model" type="K2">
+	<skin name="blue3">
+		<reference mesh="skytop" material="blue3/sky_top.material"/>
+	</skin>
+	<skin name="blue2">
+		<reference mesh="skytop" material="blue2/sky_top.material"/>
+	</skin>
+	<skin name="blue">
+		<reference mesh="skytop" material="blue/sky_top.material"/>
+	</skin>
+	<skin name="peach">
+		<reference mesh="skytop" material="peach/sky_top.material"/>
+	</skin>
+	<skin name="blue_sky">
+		<reference mesh="skytop" material="blue_sky/sky_top.material"/>
+	</skin>
+	<skin name="scarsky">
+		<reference mesh="skytop" material="scarsky/sky_top.material"/>
+	</skin>
+	<skin name="storm">
+		<reference mesh="skytop" material="storm/sky_top.material"/>
+	</skin>
+	<skin name="thunderstorm">
+		<reference mesh="skytop" material="thunderstorm/sky_top.material"/>
+	</skin>
+	<skin name="winter">
+		<reference mesh="skytop" material="winter/sky_top.material"/>
+	</skin>
+</model>

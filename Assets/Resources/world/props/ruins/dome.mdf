@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Dome 1st texture pass.max" file="dome.model" type="K2" >
+
+<anim name="idle" clip="dome.clip" numframes="100" startframe="0" fps="30"  loop="true"/>
+</model>

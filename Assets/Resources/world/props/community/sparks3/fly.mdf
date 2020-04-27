@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="" file="spinner.model" type="K2" >
+	<anim name="idle" clip="spinner.clip" fps="47" loop="true">
+		<startevent cmd="starteffect /world/props/community/sparks3/bugfly.effect"/>	
+	</anim>
+</model>

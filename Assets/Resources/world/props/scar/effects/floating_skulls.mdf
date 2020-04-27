@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="scar_vag_effects05.max" file="floating_skulls.model" type="K2" >
+	<anim name="idle" clip="floating_skulls.clip" numframes="141" startframe="0" fps="15" loop="true">
+		<startevent  cmd="StartEffect /world/props/scar/effects/floating_evil.effect"/>
+		
+	</anim>
+</model>

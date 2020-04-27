@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="sky" file="sky.model" type="K2">
+	<skin name="blue3">
+		<reference mesh="sphere01" material="blue3/sky.material"/>
+	</skin>
+	<skin name="blue2">
+		<reference mesh="sphere01" material="blue2/sky.material"/>
+	</skin>
+	<skin name="blue">
+		<reference mesh="sphere01" material="blue/sky.material"/>
+	</skin>
+	<skin name="peach">
+		<reference mesh="sphere01" material="peach/sky.material"/>
+	</skin>
+	<skin name="blue_sky">
+		<reference mesh="sphere01" material="blue_sky/sky.material"/>
+	</skin>
+	<skin name="scarsky">
+		<reference mesh="sphere01" material="scarsky/sky.material"/>
+	</skin>
+	<skin name="storm">
+		<reference mesh="sphere01" material="storm/sky.material"/>
+	</skin>
+	<skin name="thunderstorm">
+		<reference mesh="sphere01" material="thunderstorm/sky.material"/>
+	</skin>
+
+	<skin name="winter">
+		<reference mesh="sphere01" material="winter/sky.material"/>
+	</skin>
+</model>

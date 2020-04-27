@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="redwood" file="fraserfir_rt.spt" type="SpeedTree">
+	<branchmat file="redwoodBark.material"/>
+	<frondmat file="redwoodFrond.material"/>
+	<leafmat file="redwoodLeaves.material"/>
+	<billboardmat file="redwoodBillboard.material"/>
+</model>

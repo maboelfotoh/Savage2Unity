@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="ruin_02.max" file="ruin_1.model" type="K2" >
+
+<anim name="idle" clip="ruin_1.clip" numframes="100" startframe="0" fps="30"  loop="true"/>
+</model>

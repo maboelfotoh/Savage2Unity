@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<material>
+	<parameters vDiffuseColor="1 1 1" fSpecularLevel="1" fGlossiness="0" fBumbLevel="0.3000" />
+	<phase name="color" vs="sky" ps="sky" srcblend="BLEND_SRC_ALPHA" dstblend="BLEND_ONE_MINUS_SRC_ALPHA" cull="CULL_BACK" translucent="true" depthwrite="false">
+		<sampler name="diffuse" texture="scarsky_top.tga" repeat_u="false" repeat_v="false" />
+	</phase>
+</material>

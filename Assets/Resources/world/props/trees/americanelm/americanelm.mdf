@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="American Elm" file="AmericanElm_RT.spt" type="SpeedTree">
+	<branchmat file="AmericanElmBark.material"/>
+	<frondmat file="AmericanElmFrond.material"/>
+	<leafmat file="AmericanElmLeaves.material"/>
+	<billboardmat file="AmericanElmBillboard.material"/>
+</model>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="cliffhouse_texture.max" file="cliffhouse.model" type="K2" >
+
+<anim name="idle" clip="cliffhouse.clip" numframes="100" startframe="0" fps="30" blendtime="0" loop="true"/>
+</model>

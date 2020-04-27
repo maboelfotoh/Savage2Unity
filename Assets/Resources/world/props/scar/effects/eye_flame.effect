@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="eye fire thing">
+	<definitions>
+		<particlesystem name="system0" space="world">
+
+		<simpleemitter
+			bone="_bone07"
+			spawnrate="20"
+			particlelife="300"
+			gravity="-20"
+			minspeed="0"
+			maxspeed="0"
+			drag="0"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="15"
+			direction="5 0 0"
+			material="/shared/effects/materials/flame.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360" 
+				minanglespeed="-10"
+				maxanglespeed="10"
+				startframe="0"
+				endframe="1"
+				startsize="20"
+				endsize="50"
+				startcolor="0 0 0"
+				midcolor=".3 .3 .3"
+				endcolor=".3 0 0"
+				midcolorpos=".1"
+			/>
+		</simpleemitter>
+	
+	
+		<simpleemitter
+			bone="_bone09"
+			spawnrate="20"
+			particlelife="500"
+			gravity="-20"
+			minspeed="0"
+			maxspeed="100"
+			drag=".4"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="90"
+			direction="5 0 0"
+			material="/shared/effects/materials/flame.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360" 
+				minanglespeed="-10"
+				maxanglespeed="10"
+				startframe="0"
+				endframe="1"
+				startsize="20"
+				endsize="50"
+				startcolor="0 0 0"
+				midcolor=".3 .3 .3"
+				endcolor=".3 0 0"
+				midcolorpos=".1"
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone10"
+			spawnrate="20"
+			particlelife="500"
+			gravity="-20"
+			minspeed="0"
+			maxspeed="100"
+			drag=".4"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="90"
+			direction="5 0 0"
+			material="/shared/effects/materials/flame.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360" 
+				minanglespeed="-10"
+				maxanglespeed="10"
+				startframe="0"
+				endframe="1"
+				startsize="20"
+				endsize="50"
+				startcolor="0 0 0"
+				midcolor=".3 .3 .3"
+				endcolor=".3 0 0"
+				midcolorpos=".1"
+			/>
+		</simpleemitter>
+		
+		<simpleemitter
+			bone="_bone11"
+			spawnrate="20"
+			particlelife="500"
+			gravity="-20"
+			minspeed="0"
+			maxspeed="100"
+			drag=".4"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="90"
+			direction="5 0 0"
+			material="/shared/effects/materials/flame.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360" 
+				minanglespeed="-10"
+				maxanglespeed="10"
+				startframe="0"
+				endframe="1"
+				startsize="20"
+				endsize="50"
+				startcolor="0 0 0"
+				midcolor=".3 .3 .3"
+				endcolor=".3 0 0"
+				midcolorpos=".1"
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone12"
+			spawnrate="20"
+			particlelife="500"
+			gravity="-20"
+			minspeed="0"
+			maxspeed="100"
+			drag=".4"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="90"
+			direction="5 0 0"
+			material="/shared/effects/materials/flame.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360" 
+				minanglespeed="-10"
+				maxanglespeed="10"
+				startframe="0"
+				endframe="1"
+				startsize="20"
+				endsize="50"
+				startcolor="0 0 0"
+				midcolor=".3 .3 .3"
+				endcolor=".3 0 0"
+				midcolorpos=".1"
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone13"
+			spawnrate="20"
+			particlelife="500"
+			gravity="-20"
+			minspeed="0"
+			maxspeed="100"
+			drag=".4"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="90"
+			direction="5 0 0"
+			material="/shared/effects/materials/flame.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360" 
+				minanglespeed="-10"
+				maxanglespeed="10"
+				startframe="0"
+				endframe="1"
+				startsize="20"
+				endsize="50"
+				startcolor="0 0 0"
+				midcolor=".3 .3 .3"
+				endcolor=".3 0 0"
+				midcolorpos=".1"
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone14"
+			spawnrate="20"
+			particlelife="500"
+			gravity="-20"
+			minspeed="0"
+			maxspeed="100"
+			drag=".4"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="90"
+			direction="5 0 0"
+			material="/shared/effects/materials/flame.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360" 
+				minanglespeed="-10"
+				maxanglespeed="10"
+				startframe="0"
+				endframe="1"
+				startsize="20"
+				endsize="50"
+				startcolor="0 0 0"
+				midcolor=".3 .3 .3"
+				endcolor=".3 0 0"
+				midcolorpos=".1"
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone08"
+			spawnrate="20"
+			particlelife="500"
+			gravity="-20"
+			minspeed="0"
+			maxspeed="100"
+			drag=".4"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="90"
+			direction="5 0 0"
+			material="/shared/effects/materials/flame.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360" 
+				minanglespeed="-10"
+				maxanglespeed="10"
+				startframe="0"
+				endframe="1"
+				startsize="20"
+				endsize="50"
+				startcolor="0 0 0"
+				midcolor=".3 .3 .3"
+				endcolor=".3 0 0"
+				midcolorpos=".1"
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone_eyes09"
+			spawnrate="20"
+			particlelife="500"
+			gravity="-20"
+			minspeed="0"
+			maxspeed="100"
+			drag=".4"
+			acceleration="0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="90"
+			direction="5 0 0"
+			material="/shared/effects/materials/flame.material"
+			offsetsphere="0 0 0 "
+		>
+			<particle
+				minangle="0"
+				maxangle="360" 
+				minanglespeed="-10"
+				maxanglespeed="10"
+				startframe="0"
+				endframe="1"
+				startsize="20"
+				endsize="50"
+				startcolor="0 0 0"
+				midcolor=".3 .3 .3"
+				endcolor=".3 0 0"
+				midcolorpos=".1"
+			/>
+		</simpleemitter>
+        
+		</particlesystem>
+	</definitions>
+
+	<thread>
+		<spawnparticlesystem instance="instance0" particlesystem="system0"/>
+		<waitfordeath instance="instance0"/>
+		<!-- <die /> -->
+	</thread>
+
+<!-- [min|max][start|mid|end]property[speed][position] -->
+
+</effect>
+
+
+	

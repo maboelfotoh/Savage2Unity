@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="prop_human_goldmine.max" file="mine.model" type="K2" >
+        <skin name="empty">
+		<reference mesh="rock" material="mine_rock_empty.material"/>
+                <reference mesh="cart" material="cart_empty.material"/>
+ 		<reference mesh="cart2" material="cart_empty.material"/>
+	</skin>
+</model>
+
+

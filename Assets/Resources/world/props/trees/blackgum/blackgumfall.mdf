@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Black Gum (Fall)" file="BlackGum_RT_Fall.spt" type="SpeedTree">
+	<branchmat file="BlackGumBark.material"/>
+	<frondmat file="BlackGumFrondFall.material"/>
+	<leafmat file="BlackGumLeavesFall.material"/>
+	<billboardmat file="BlackGumBillboardFall.material"/>
+</model>

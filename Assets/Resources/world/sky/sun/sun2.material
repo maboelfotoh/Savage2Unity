@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<material>
+	<parameters vDiffuseColor="1 1 1" fSpecularLevel="1" fGlossiness="0" fBumbLevel="0.3000"></parameters>
+	<phase name="color" vs="effect_sky" ps="effect" srcblend="BLEND_ONE" dstblend="BLEND_ONE" cull="CULL_BACK" translucent="true" depthwrite="false">
+		<sampler name="diffuse" texture="sun2.tga" repeat_u="false" repeat_v="false"></sampler>
+	</phase>
+</material>

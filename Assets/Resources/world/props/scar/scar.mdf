@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="NewScarOpitmized_deathBuild01.max" file="scar.model" type="K2" >
+
+	<anim name="idle" clip="scar.clip" startframe="0" numframes="1" >
+        <startevent cmd="PlaySoundLooping /world/props/scar/sounds/eerie_hum.mp3 275 1"/>
+		<endevent cmd="StopSound 1"/>	
+    </anim>
+
+</model>

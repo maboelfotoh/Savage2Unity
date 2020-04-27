@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<material>
+   <parameters vDiffuseColor="1.0000 1.0000 1.0000" fSpecularLevel="0.9000" fGlossiness="75" fBumpLevel="0.6000" fOpacity="0.60">
+	   <float name="fSpeed" value="0.02"/>
+   </parameters>
+   <phase name="color" vs="water" ps="water" srcblend="BLEND_SRC_ALPHA" dstblend="BLEND_ONE_MINUS_SRC_ALPHA" translucent="true" cull="CULL_BACK">
+      <sampler name="diffuse" texture="w1_d.tga" repeat_u="true" repeat_v="true" scale_u=".5000" scale_v=".5000" fps="15" mipmaps="true" fullquality="true" nocompress="false" filtering="true" border="false"></sampler>
+      <sampler name="normalmap1" texture="w1_n.tga" repeat_u="true" repeat_v="true" scale_u="1.0000" scale_v="1.0000" fps="15" mipmaps="true" fullquality="true" nocompress="false" filtering="true" border="false"></sampler>
+      <sampler name="normalmap2" texture="w3_n.tga" repeat_u="true" repeat_v="true" scale_u="1.0000" scale_v="1.0000" fps="15" mipmaps="true" fullquality="true" nocompress="false" filtering="true" border="false"></sampler>
+      <samplerCUBE name="cube" texture="/world/sky/test/1.tga" fps="5" mipmaps="true" fullquality="false" nocompress="false"></samplerCUBE>
+   </phase>
+</material>

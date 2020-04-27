@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Fraser Fir Cluster" file="FraserFirCluster_RT.spt" type="SpeedTree">
+	<branchmat file="FraserFirBark.material"/>
+	<frondmat file="FraserFirFrond.material"/>
+	<leafmat file="FraserFirNeedles.material"/>
+	<billboardmat file="FraserFirBillboard.material"/>
+</model>

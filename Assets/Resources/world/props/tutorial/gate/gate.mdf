@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="gatefinal.max" file="gate.model" type="K2" >
+	<anim name="close" startframe="0" numframes="40" loopbackframe="30" loop="true" clip="gate.clip">
+		<frameevent frame="1" cmd="PlaySound /world/props/tutorial/gate/sounds/gate_close.mp3 350"/>
+	</anim>
+	<anim name="open" startframe="50" numframes="40" loopbackframe="80" loop="true" clip="gate.clip">
+		<frameevent frame="1" cmd="PlaySound /world/props/tutorial/gate/sounds/gate_open.mp3"/>
+	</anim>
+</model>

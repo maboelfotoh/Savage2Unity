@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="scar_fog">
+	<definitions>
+		<particlesystem name="system0" space="world">
+		
+		<light 
+			
+			position="0 0 -20" 
+			startcolor="1.0 .3 .2" 
+			endcolor="0 0 0" 
+			falloffstart="100"
+			falloffend="600"	
+		/>
+		
+		<simpleemitter			
+			spawnrate="5"			
+			particlelife="4000"
+			gravity="6"
+			speed="500"
+			drag=".5"
+			acceleration="0.0"
+			position="0 0 0"
+			inheritvelocity=".1"	
+			material="/shared/effects/materials/smoke_particle.material"
+			offsetsphere="800 800 0"
+			timenudge="-80"
+		>
+			<particle minangle="0"
+
+				maxangle="360"
+				minanglespeed="-30"
+				color=".2 .2 .2"
+				maxanglespeed="30"
+				startframe=".5"
+				endframe="1"
+				size="800"
+				startalpha="0"
+				midalpha=".3"
+				endalpha="0"
+				midalphapos=".2"
+				
+			/>
+		</simpleemitter>
+		
+		
+		
+		
+		
+		<simpleemitter			
+			spawnrate="5"			
+			particlelife="3000"
+			gravity="-20"
+			speed="500"
+			drag=".8"
+			acceleration="0.0"
+			position="0 0 0"
+			inheritvelocity=".1"	
+			material="/shared/effects/materials/smoke_particle.material"
+			offsetsphere="633 633 100"
+			timenudge="-80"
+		>
+			<particle minangle="0"
+
+				maxangle="360"
+				minanglespeed="-30"
+				color="1  .4 0"
+				maxanglespeed="30"
+				startframe=".5"
+				endframe="1"
+				size="1200"
+				startalpha="0"
+				midalpha=".2"
+				endalpha="0"
+				midalphapos=".2"
+				
+			/>
+		</simpleemitter>		
+
+
+
+
+
+
+
+	
+
+
+        
+      </particlesystem>
+   </definitions>
+   <thread>
+      <spawnparticlesystem instance="instance0" particlesystem="system0" />
+      <waitfordeath instance="instance0" />
+      <!-- <die /> -->
+   </thread>
+</effect>
+
+<!-- [min|max][start|mid|end]property[speed][position] -->
+
+

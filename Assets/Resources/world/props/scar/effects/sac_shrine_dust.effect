@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="arrow_tower_build">
+	<definitions>
+		<particlesystem name="system0" space="world">
+
+
+
+
+		<simpleemitter
+			bone="_bone_burst01"
+			
+			count="15"
+			particlelife="2000"
+			life="5000"
+			
+			gravity="-2"
+			speed="20"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 10"
+			minangle="0"
+			maxangle="90"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="20 20 80 "
+			timenudge="-38700"
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="50"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+
+		
+		<simpleemitter
+			bone="_bone_burst02"
+			
+			count="15"
+			particlelife="2000"
+			life="5000"
+			
+			gravity="-2"
+			speed="20"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 10"
+			minangle="0"
+			maxangle="90"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="20 20 80 "
+			timenudge="-40300"
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="50"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone_burst03"
+			
+			count="15"
+			particlelife="3500"
+			life="7000"
+			
+			gravity="-1"
+			speed="20"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 10"
+			minangle="0"
+			maxangle="90"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="20 20 80 "
+			timenudge="-36500"
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="50"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+
+			<simpleemitter
+			bone="_bone_burst04"
+			
+			count="15"
+			particlelife="3500"
+			life="7000"
+			
+			gravity="-1"
+			speed="20"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 10"
+			minangle="0"
+			maxangle="90"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="20 20 80 "
+			timenudge="-40000"
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="50"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+		
+			<simpleemitter
+			bone="_bone_burst05"
+			
+			count="15"
+			particlelife="3500"
+			life="7000"
+			
+			gravity="-1"
+			speed="20"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 55"
+			minangle="0"
+			maxangle="90"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="20 20 80 "
+			timenudge="-37500"
+		>
+			<particle
+				minangle="0"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="50"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+<!--========================================================== 2ndSmoke =========================================== -->
+		<simpleemitter
+			bone="_bone_burst05"
+			
+			count="20"
+			particlelife="3500"
+			life="7000"
+			
+			gravity="0"
+			speed="100"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 55"
+			minangle="0"
+			maxangle="90"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="50 80 40 "
+			timenudge="-37500"
+		>
+			<particle
+				minangle="-360"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="80"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone_burst04"
+			
+			count="20"
+			particlelife="3500"
+			life="7000"
+			
+			gravity="0"
+			speed="100"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 55"
+			minangle="0"
+			maxangle="90"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="50 80 40 "
+			timenudge="-40000"
+		>
+			<particle
+				minangle="-360"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="80"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone_burst03"
+			
+			count="20"
+			particlelife="3500"
+			life="7000"
+			
+			gravity="0"
+			speed="100"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 55"
+			minangle="0"
+			maxangle="90"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="50 80 40 "
+			timenudge="-36500"
+		>
+			<particle
+				minangle="-360"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="80"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone_burst02"
+			
+			count="20"
+			particlelife="3500"
+			life="7000"
+			
+			gravity="0"
+			speed="100"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 55"
+			minangle="0"
+			maxangle="90"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="50 80 40 "
+			timenudge="-40300"
+		>
+			<particle
+				minangle="-360"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="80"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone_burst01"
+			
+			count="20"
+			particlelife="3500"
+			life="7000"
+			
+			gravity="0"
+			speed="100"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 55"
+			minangle="0"
+			maxangle="90"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="50 80 40 "
+			timenudge="-38700"
+		>
+			<particle
+				minangle="-360"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="80"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+
+		<simpleemitter
+			bone="_bone_s01"
+			spawnrate="20"
+			count="120"
+			particlelife="2000"
+			life="38000"
+			
+			gravity="-1"
+			speed="20"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="180"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="20 35  50 "
+			timenudge="-30000"
+		>
+			<particle
+				minangle="-360"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="80"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+
+		
+		<simpleemitter
+			bone="_bone_s02"
+			spawnrate="20"
+			count="120"
+			particlelife="2000"
+			life="38000"
+			
+			gravity="-1"
+			speed="20"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="180"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="20 35  50 "
+			timenudge="-30000"
+		>
+			<particle
+				minangle="-360"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="80"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+
+		
+		<simpleemitter
+			bone="_bone_s03"
+			spawnrate="20"
+			count="120"
+			particlelife="2000"
+			life="38000"
+			
+			gravity="-1"
+			speed="20"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="180"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="20 35  50 "
+			timenudge="-30000"
+		>
+			<particle
+				minangle="-360"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="80"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+
+		
+		<simpleemitter
+			bone="_bone_s04"
+			spawnrate="20"
+			count="120"
+			particlelife="2000"
+			life="38000"
+			
+			gravity="-1"
+			speed="20"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="180"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="20 35  50 "
+			timenudge="-30000"
+		>
+			<particle
+				minangle="-360"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="80"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+
+		
+		<simpleemitter
+			bone="_bone_s05"
+			spawnrate="20"
+			count="120"
+			particlelife="2000"
+			life="38000"
+			
+			gravity="-1"
+			speed="20"
+			drag="0"
+			acceleration="0.0"
+			position="0 0 0"
+			minangle="0"
+			maxangle="180"
+			direction="0 0 0"
+			material="/shared/effects/materials/dust.material"
+			offsetsphere="20 35  50 "
+			timenudge="-30000"
+		>
+			<particle
+				minangle="-360"
+				maxangle="360"
+				minanglespeed="-50"
+				color="1 1 1"
+				maxanglespeed="80"
+				startframe="0"
+				endframe="1"
+				startsize="100"
+				midesize="175"
+				endsize="220"
+				startalpha="0"
+				midalpha=".5"
+				endalpha="0"
+				midalphapos=".1"
+				
+			/>
+		</simpleemitter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+        
+      </particlesystem>
+   </definitions>
+   <thread>
+      <spawnparticlesystem instance="instance0" particlesystem="system0" />
+      <waitfordeath instance="instance0" />
+      <!-- <die /> -->
+   </thread>
+</effect>
+
+<!-- [min|max][start|mid|end]property[speed][position] -->
+
+
+	

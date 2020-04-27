@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="low_poly_candel" file="candle.model" type="K2">
+<skin name="default"><reference mesh="&lt;-multiple-&gt;" material="smallbox.material"/></skin>
+	<anim name="idle" clip="waterfall.clip">
+		<frameevent frame="1" cmd="StartEffect candel.effect"/>
+	
+	</anim>	
+		
+</model>

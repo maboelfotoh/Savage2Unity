@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Burford Holly Cluster" file="BurfordHollyCluster_RT.spt" type="SpeedTree">
+	<branchmat file="BurfordHollyBranch.material"/>
+	<frondmat file="BurfordHollyFrond.material"/>
+	<leafmat file="BurfordHollyLeaf.material"/>
+</model>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="stone_tower.max" file="waterfall.model" type="K2">
+
+	<anim name="idle" clip="waterfall.clip">
+		<frameevent frame="1" cmd="StartEffect waterfall.effect"/>
+		<frameevent frame="1" cmd="StartEffect waterfall.effect"/>
+		<frameevent frame="1" cmd="StartEffect rainbow.effect"/>
+		<frameevent frame="1" cmd="PlaySoundLooping /shared/sounds/environmental/waterfall.mp3 150"/>
+	</anim>	
+		
+</model>

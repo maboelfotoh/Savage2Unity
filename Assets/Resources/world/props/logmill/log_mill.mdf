@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="camp_stuff03.max" file="log_mill.model" type="K2" >
+
+<anim name="idle" clip="log_mill.clip" startframe="0" numframes="100" />
+		
+</model>
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Pampas Grass Winter" file="PampasGrass_RT_Winter.spt" type="SpeedTree">
+	<branchmat file="PampasGrassWinterBranch.material"/>
+	<frondmat file="PampasGrassWinterFrond.material"/>
+	<leafmat file="PampasGrassWinterLeaf.material"/>
+</model>

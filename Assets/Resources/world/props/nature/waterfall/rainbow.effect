@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="waterfall">
+
+	<definitions>
+
+		<particlesystem name="system0" space="world">
+
+			<billboard 
+				yaw="90"
+				pitch="-45"
+				material="rainbow.material" 
+				height="256"
+				width="512"			
+				scale="5"
+				position="0 -330 150"
+				lockright="true"
+				color="0.3 0.3 0.3"
+			/>
+
+			<billboard 
+				yaw="90"
+				pitch="-45"
+				material="rainbow.material" 
+				height="256"
+				width="512"			
+				scale="4"
+				position="0 -330 0"
+				lockright="true"
+				color="0.1 0.1 0.1"
+			/>
+
+			<billboard 
+				yaw="40"
+				pitch="10"
+				material="rays.material" 
+				height="512"
+				width="512"			
+				scale="4"
+				position="-550 0 250"
+				alpha="0.8"
+				lockright="true"
+				lockup="true"
+			/>
+
+		</particlesystem>
+
+	</definitions>
+
+	<thread>
+		<spawnparticlesystem instance="instance0" particlesystem="system0"/>
+		<waitfordeath instance="instance0"/>
+		<!-- <die /> -->
+	</thread>
+
+</effect>
+
+<!-- [min|max][start|mid|end]property[speed][position] -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="stone_tower.max" file="geiser.model" type="K2">
+
+	<anim name="idle" clip="geiser.clip" loop="true" fps="10">
+		<frameevent frame="3" cmd="StartEffect /shared/effects/geiser.effect"/>
+		<frameevent frame="1" cmd="PlaySound /shared/sounds/environmental/geyser_errupt.mp3 150"/>
+		<frameevent frame="1" cmd="PlaySoundLooping /shared/sounds/environmental/geyser_idle.mp3 60"/>
+	</anim>	
+		
+</model>

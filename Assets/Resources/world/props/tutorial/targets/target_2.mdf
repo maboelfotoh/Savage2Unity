@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="" file="target_2.model" type="K2" >
+	<anim name="idle" numframes="1" clip="target_2.clip"/>
+	<anim name="death" numframes="100" clip="target_2.clip" loop="true" loopbackframe="99" fps="45">
+		<frameevent frame="1" cmd="PlaySound /world/props/tutorial/targets/sounds/target_destroyed_%.mp3 250"/>
+	</anim>
+</model>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="barrel" file="crate2.model" type="K2">
+<skin name="default"><reference mesh="&lt;-multiple-&gt;" material="crate2.material"/></skin>
+</model>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Weeping Willow (Winter)" file="WeepingWillow_RT_Winter.spt" type="SpeedTree">
+	<branchmat file="WeepingWillowBark.material"/>
+	<frondmat file="WeepingWillowFrondWinter.material"/>
+	<billboardmat file="WeepingWillowBillboardWinter.material"/>
+</model>

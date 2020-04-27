@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="Red Maple (Fall)" file="RedMaple_RT_Fall.spt" type="SpeedTree">
+	<branchmat file="RedMapleBark.material"/>
+	<frondmat file="RedMapleFrondFall.material"/>
+	<leafmat file="RedMapleLeavesFall.material"/>
+	<billboardmat file="RedMapleBillboardFall.material"/>
+</model>

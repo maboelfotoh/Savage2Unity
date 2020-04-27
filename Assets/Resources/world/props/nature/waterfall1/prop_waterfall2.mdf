@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="waterfall_water_recover.max" file="prop_waterfall.model" type="K2">
+	<anim name="idle" clip="prop_waterfall.clip">
+		<frameevent frame="1" cmd="StartEffect waterfall2.effect"/>
+		<frameevent frame="1" cmd="PlaySoundLooping /shared/sounds/environmental/waterfall.mp3 150"/>
+	</anim>	
+</model>

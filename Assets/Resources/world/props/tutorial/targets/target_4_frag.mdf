@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="target.max" file="target_4_frag.model" type="K2"  >
+	<anim name="idle" numframes="1" clip="target_4_frag.clip"/>
+	<anim name="death" numframes="100" clip="target_4_frag.clip" loop="true" loopbackframe="99" fps="45"/>
+</model>
