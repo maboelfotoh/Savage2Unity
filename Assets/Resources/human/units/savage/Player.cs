@@ -78,6 +78,10 @@ int w = myAnim.GetCurrentAnimatorClipInfo(0).Length;
         lastMouse = Input.mousePosition - lastMouse ;
         lastMouse = new Vector3(-lastMouse.y * camSens, lastMouse.x * camSens, 0 );
         lastMouse = new Vector3(transform.eulerAngles.x + lastMouse.x , transform.eulerAngles.y + lastMouse.y, 0);
+
+        // 3rd person melee
+        lastMouse.x = 0;
+
         transform.eulerAngles = lastMouse;
         lastMouse =  Input.mousePosition;
         //Mouse  camera angle done.  
@@ -105,6 +109,7 @@ int w = myAnim.GetCurrentAnimatorClipInfo(0).Length;
         p = p * Time.deltaTime;
        Vector3 newPosition = transform.position;
         //if (Input.GetKey(KeyCode.Space)){ //If player wants to move on X and Z axis only
+            p.y = 0;
             transform.Translate(p);
             newPosition.x = transform.position.x;
             newPosition.z = transform.position.z;
