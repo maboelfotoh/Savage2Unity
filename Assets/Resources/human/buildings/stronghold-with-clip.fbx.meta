@@ -9,12 +9,552 @@ ModelImporter:
   - first:
       74: 196835327007785553
     second: stronghold
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flag
+    second: {fileID: 2100000, guid: b62aa5601bd401ddbada6bfc8e3dd51f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flag_001
+    second: {fileID: 2100000, guid: 5aa7005d27b51535ba641b9a54707fda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flag_002
+    second: {fileID: 2100000, guid: 1c97ef191626a4fa685aaa3fba9a6606, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flag_003
+    second: {fileID: 2100000, guid: 7100721a5e0d1ff3eb4d4324aa455e90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flag_004
+    second: {fileID: 2100000, guid: dbffe7cb0012163269cd7b6ce6db019b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flag_005
+    second: {fileID: 2100000, guid: 89cc844e3e3c03e8f8d4d1423abf9fcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flag_006
+    second: {fileID: 2100000, guid: 29f9ef012dcac8edfbe885c06569f5dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flag_007
+    second: {fileID: 2100000, guid: 34458ea6b4ed01ccbb681a396be0c920, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flag_008
+    second: {fileID: 2100000, guid: 025abe1f57ccf09f0b21e68031f89dac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flag_009
+    second: {fileID: 2100000, guid: 05f38335afc8535c88e77d3b8b1a2d00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold
+    second: {fileID: 2100000, guid: e2a0db72b57168909a574f48cf7e4cb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_001
+    second: {fileID: 2100000, guid: a861fb5ecbc375d11a6f832cc6ea4437, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_002
+    second: {fileID: 2100000, guid: 2ebfb97c55bf773588f58fef0f9f2e66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_003
+    second: {fileID: 2100000, guid: fd1980f92806c901db29c359c2e0dd30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_004
+    second: {fileID: 2100000, guid: 2c363141db28fb862b9278cf4e5a5d61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_005
+    second: {fileID: 2100000, guid: ec7f597215b793c99b54de3a663ca69a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_006
+    second: {fileID: 2100000, guid: 617f5b4a2e5535b9eaeb9666031eba54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_007
+    second: {fileID: 2100000, guid: 8010d365432c74295830251522b64181, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_008
+    second: {fileID: 2100000, guid: 63ecf15bdf062982fbbebfd1d0c5f132, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_009
+    second: {fileID: 2100000, guid: f550bedaca4965c37bce1d780edfc8a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_010
+    second: {fileID: 2100000, guid: 313c61327781933ad860888b42ab47ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_011
+    second: {fileID: 2100000, guid: 7135410f2e583aa168161a749182d601, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_012
+    second: {fileID: 2100000, guid: aedbf14b6789e3e49a6f7a963b4071c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_013
+    second: {fileID: 2100000, guid: 477fd318547814aa2a6d1e09d43f5604, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_014
+    second: {fileID: 2100000, guid: af22bbb44a73f457398844098fc03f57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_015
+    second: {fileID: 2100000, guid: f5a6940964c0167cc9596cbb8d7f3cd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_016
+    second: {fileID: 2100000, guid: 19535a5168a23bf6ba3aa158be38de24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_017
+    second: {fileID: 2100000, guid: 267434ea273a8705897e006060390327, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_018
+    second: {fileID: 2100000, guid: abf195e6c50ff04f3a90b420e23a7bc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_019
+    second: {fileID: 2100000, guid: d7acf96bcae5519e38d2de87899258c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_020
+    second: {fileID: 2100000, guid: 66d287e1d06f34cf6af365ceb5896d7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_021
+    second: {fileID: 2100000, guid: e308e58ac1558a71a9f4bb901169269e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_022
+    second: {fileID: 2100000, guid: 3c8f4c4898612791c85f19bc24124775, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_023
+    second: {fileID: 2100000, guid: ab493ecea426279a58ea9b98e6211c24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_024
+    second: {fileID: 2100000, guid: d61904f70d52f48e897bb33b877d4031, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_025
+    second: {fileID: 2100000, guid: d265ad8b1ccd06ae18dc6b56adb53f69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_026
+    second: {fileID: 2100000, guid: 1253d095b04ae34b1817f2501146e7eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_027
+    second: {fileID: 2100000, guid: 1966f809a4752026083563f2c5fdc27b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_028
+    second: {fileID: 2100000, guid: 5c9e0ec6761fbc1f38c6bb214d929937, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_029
+    second: {fileID: 2100000, guid: b7ea941c5a55ccc328ea65c46bc40f6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_030
+    second: {fileID: 2100000, guid: 42a61c788d0eba7e8895ad82a29464e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_031
+    second: {fileID: 2100000, guid: 62c6d057e402a7e2ba4633d508b418f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_032
+    second: {fileID: 2100000, guid: 841e542ba1d144ff1883e3a22b071d9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_033
+    second: {fileID: 2100000, guid: 73e0271f23cae0d9db40ea3d81b79a47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_034
+    second: {fileID: 2100000, guid: a29c969b2fa73829ba6c252fe10bc04a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_035
+    second: {fileID: 2100000, guid: aab50e759d176c5f49c439f9678ae643, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_036
+    second: {fileID: 2100000, guid: 4629294ab684fc3f79aee867bad59a55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_037
+    second: {fileID: 2100000, guid: ed08338164b66feff81b23cd05c80ced, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_038
+    second: {fileID: 2100000, guid: ce1b3b0515bc13a94a65c9d3f9cb436f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_039
+    second: {fileID: 2100000, guid: 7bc11d1d658eb6202842791df6580bc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_040
+    second: {fileID: 2100000, guid: d5f54c8ec0397e322927fb5efb765730, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_041
+    second: {fileID: 2100000, guid: 94f10e5f91246ca3e9dc9d57de30b1a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_042
+    second: {fileID: 2100000, guid: f58d2c05a0c9b51448925a678529fdae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_043
+    second: {fileID: 2100000, guid: 67ca8bc980c815962ace022d7117af12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_044
+    second: {fileID: 2100000, guid: 0826c2fd6ce56f03f9c4d52d3a974cc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_045
+    second: {fileID: 2100000, guid: c29d2f5ed7385a971932e1da999ed4ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_046
+    second: {fileID: 2100000, guid: d94791c76c9ad1e4882841f74cd8e323, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_047
+    second: {fileID: 2100000, guid: 37d9a56bc3eb266ffab929fe0019cd6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_048
+    second: {fileID: 2100000, guid: 425a7e13f72179aeea0abf709cb0d136, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_049
+    second: {fileID: 2100000, guid: a385af4d78deb53d1add139621c48df6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_050
+    second: {fileID: 2100000, guid: 9137a095adfe2378f8fb801aa6a58ae6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_051
+    second: {fileID: 2100000, guid: 1d023966f1f65f3ceb0672bb771db356, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_052
+    second: {fileID: 2100000, guid: 0f3344b58b46cd471bf7bafdb0ee00c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_053
+    second: {fileID: 2100000, guid: db24e313a923fa1dbab0327c736da846, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_054
+    second: {fileID: 2100000, guid: 66ccb9adbc96804b1b86ae417c0e7bf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_055
+    second: {fileID: 2100000, guid: a0c49d272cc7ace56932b3db493567a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_056
+    second: {fileID: 2100000, guid: 3bbd5da4ae2cadfc38b5154fdc9c9dbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_057
+    second: {fileID: 2100000, guid: a6e63cfe6f7472957b2b50ffdd568007, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_058
+    second: {fileID: 2100000, guid: 354844320c78879d18df229ebf80442a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_059
+    second: {fileID: 2100000, guid: e0fc0ca3af7601fef9708b29c8a4544d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_060
+    second: {fileID: 2100000, guid: feb2989ba1b0c6e269cf8082bde1454d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_061
+    second: {fileID: 2100000, guid: 20d0b009f3d4e341f8914f4876dd99b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_062
+    second: {fileID: 2100000, guid: cc07d2b49df2b9d618d9da1497efa086, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_063
+    second: {fileID: 2100000, guid: 6aedb295b6fb142d8849bd25a6356889, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_064
+    second: {fileID: 2100000, guid: 7837187509fa4ad9a90738b60acae364, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_065
+    second: {fileID: 2100000, guid: b6d966c4a07492427925255a8ae3ea50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_066
+    second: {fileID: 2100000, guid: cd47477a550bb11eb9a3d74707b4b156, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_067
+    second: {fileID: 2100000, guid: 78df7ae7f46d7e6198bc27e134578f9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_068
+    second: {fileID: 2100000, guid: 5758191cd414f31e1b71c1dfff418185, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_069
+    second: {fileID: 2100000, guid: bd85621c83ae896ef997f4322ac05a1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_070
+    second: {fileID: 2100000, guid: ff8c87d5898d240ea93b66d92d45c8e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_071
+    second: {fileID: 2100000, guid: a8637aaa244ca9e6c94245fc3ed4ee6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_072
+    second: {fileID: 2100000, guid: e75fcf6a602f641b7a690d5b0b47bd49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_073
+    second: {fileID: 2100000, guid: c99e18d85af1475e4975cbd16ff100a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_074
+    second: {fileID: 2100000, guid: fd63d44ce75e6e9c58e58b05b9521e14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_075
+    second: {fileID: 2100000, guid: 11c3ad1f950c177009118a90c719a6a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_076
+    second: {fileID: 2100000, guid: d9a867e2fd9afb196a890087cdfd0bfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_077
+    second: {fileID: 2100000, guid: 780f76a0625b2261eb3ddfb9146bc2ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_078
+    second: {fileID: 2100000, guid: ece6c89935320f954841a271638d097d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_079
+    second: {fileID: 2100000, guid: 8bcd355344bac903a83764515ff49d7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_080
+    second: {fileID: 2100000, guid: 494383bffc144964f9ebb14af310ef42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_081
+    second: {fileID: 2100000, guid: ae193f039ce09be7096654bdb42b32c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_082
+    second: {fileID: 2100000, guid: af30a68c7225d5e2ba9f2cb315b0ff5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_083
+    second: {fileID: 2100000, guid: facf87a75ae4451488d309ccdc39ffcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_084
+    second: {fileID: 2100000, guid: a852f70046c00be298510ac668277ef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_085
+    second: {fileID: 2100000, guid: 7ba869c0b1bb0e7969768c8a0cee6d5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_086
+    second: {fileID: 2100000, guid: 3bd8c61f99ea43ba2b6cf224b54ee045, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_087
+    second: {fileID: 2100000, guid: 2a378345d59edff9bacac34ad837b4f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_088
+    second: {fileID: 2100000, guid: d25a33a2e6aa190dc88027639a61073b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_089
+    second: {fileID: 2100000, guid: edfa4fde0c79d209e861e71fb1cb142d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_090
+    second: {fileID: 2100000, guid: f678d76656146156b806693c5fb78a48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_091
+    second: {fileID: 2100000, guid: 05fb903c600b96608bf0b435bc75cccc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_092
+    second: {fileID: 2100000, guid: f369bdd21783d3993bfb6abfb9abefc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_093
+    second: {fileID: 2100000, guid: 7de5ce433bc6840aea8d0a04401b1add, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_094
+    second: {fileID: 2100000, guid: d3d8b6d0f5f3c8847a2e87e7b19a9f9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_095
+    second: {fileID: 2100000, guid: c813f124305150c9da357b1d6d57ec0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_096
+    second: {fileID: 2100000, guid: 19045dfcf94c04d2788178f4b1e7f033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stronghold_097
+    second: {fileID: 2100000, guid: 590a1f7a8896366989ae960de8fe537c, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -45,20 +585,20 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
-    weldVertices: 1
+    weldVertices: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
-    meshOptimizationFlags: -1
+    meshOptimizationFlags: 0
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001

@@ -16,8 +16,101 @@ ModelImporter:
       74: -839228454640597260
     second: attack_2
   - first:
+      74: -3191739438883079027
+    second: block_smooth
+  - first:
+      74: -1246054207952993310
+    second: critical_strike
+  - first:
+      74: 2477121117651324923
+    second: dazed
+  - first:
+      74: -6758483313513240000
+    second: death
+  - first:
+      74: 8784278156133277033
+    second: defeat
+  - first:
+      74: 4415000735528535509
+    second: dodge_back
+  - first:
+      74: -6217952386690083393
+    second: dodge_left
+  - first:
+      74: 5198944745992629760
+    second: dodge_right
+  - first:
+      74: 8959284313127921760
+    second: double_attack
+  - first:
+      74: 7806409254752618087
+    second: gun_draw
+  - first:
+      74: 9140648327377092124
+    second: gun_idle
+  - first:
+      74: -5252816984213320552
+    second: idle
+  - first:
+      74: 2025990302966867764
+    second: interrupt
+  - first:
+      74: -2993534804863918692
+    second: jump
+  - first:
+      74: 3948421727346794415
+    second: jump_atk
+  - first:
+      74: 4461826734956849724
+    second: land
+  - first:
+      74: 5376214045771395221
+    second: melee_draw_new
+  - first:
+      74: -1483754512608929202
+    second: morale
+  - first:
+      74: 114944838403331432
+    second: portrait_idle
+  - first:
+      74: -8695959665515358402
+    second: rage
+  - first:
+      74: -6741457155052679871
+    second: res
+  - first:
+      74: -7817008570522981562
+    second: res_001
+  - first:
+      74: 4322352852335395788
+    second: resurrected
+  - first:
+      74: 6984951911662648169
+    second: run_back
+  - first:
       74: -4314654207719642980
     second: run_fwd
+  - first:
+      74: -890620406490652115
+    second: selection_idle
+  - first:
+      74: 925568251084215075
+    second: sprint_fwd
+  - first:
+      74: 8510150600120665494
+    second: taunt
+  - first:
+      74: -3626103336033818309
+    second: tired
+  - first:
+      74: -4684037610281533016
+    second: turn_left
+  - first:
+      74: -6345241042640424177
+    second: turn_right
+  - first:
+      74: 5029710099000895372
+    second: victory
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -45,152 +138,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Default Take
-      takeName: Default Take
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 249
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000000000000000000001000000010000000000000000000000000000000000000001000000010000000000000000000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 1
-      maskSource: {fileID: 31900000, guid: d21be36114efdbba49680a1760bfc603, type: 2}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: attack_0
-      takeName: attack_0
-      internalID: 0
-      firstFrame: -1
-      lastFrame: 84
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: attack_1
-      takeName: attack_1
-      internalID: 0
-      firstFrame: -1
-      lastFrame: 84
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: attack_2
-      takeName: attack_2
-      internalID: 0
-      firstFrame: -1
-      lastFrame: 109
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: run_fwd
-      takeName: run_fwd
-      internalID: 0
-      firstFrame: -1
-      lastFrame: 22
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -241,7 +189,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: Bip01
+    rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
@@ -249,7 +197,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
