@@ -25,6 +25,7 @@ public class SavagePlayer : MonoBehaviour
 
 
     public float speed = 3.0F;
+    public float jumpSpeed = 99999998.0f;
     public float rotateSpeed = 3.0F;
 
     // Update is called once per frame
@@ -41,23 +42,53 @@ public class SavagePlayer : MonoBehaviour
     float mainSpeed = 1.0f; //regular speed
     float shiftAdd = 2.50f; //multiplied by how long shift is held.  Basically running
     float maxShift = 10.000f; //Maximum speed when holdin gshift
-    float camSens = 0.25f; //How sensitive it with mouse
+    float camSens = 0.525f; //How sensitive it with mouse
     private Vector3 lastMouse = new Vector3(255, 255, 255); //kind of in the middle of the screen, rather than at the top (play)
     private float totalRun= 1.0f;
 
     bool isAnimAttack = false;
+
+    public float gravity = 20.0f;
+    private Vector3 moveDirection = Vector3.zero;
+    private Vector3 forward = Vector3.zero;
  
     void Update () {
 
         CharacterController controller = GetComponent<CharacterController>();
 
         // Rotate around y - axis
-        transform.Rotate(0, Input.GetAxis("Horizontal") * rotateSpeed, 0);
+//        transform.Rotate(0, Input.GetAxis("Horizontal") * rotateSpeed, 0);
+        lastMouse = Input.mousePosition - lastMouse ;
+        lastMouse = new Vector3(-lastMouse.y * camSens, lastMouse.x * camSens, 0 );
+        lastMouse = new Vector3(transform.eulerAngles.x + lastMouse.x , transform.eulerAngles.y + lastMouse.y, 0);
+        // 3rd person melee
+        lastMouse.x = 0;
+        transform.eulerAngles = lastMouse;
+        lastMouse =  Input.mousePosition;
 
-        // Move forward / backward
-        Vector3 forward = transform.TransformDirection(Vector3.forward);
-        float curSpeed = speed * Input.GetAxis("Vertical");
-        controller.SimpleMove(forward * curSpeed);
+
+
+         // Jump
+        if(controller.isGrounded)
+        {
+            // Move forward / backward
+            Vector3 forward = transform.TransformDirection(Vector3.forward);
+            float curSpeed = speed * Input.GetAxis("Vertical");
+            moveDirection = forward * curSpeed;
+            animator.SetBool("isJump", false);
+            animator.SetBool("isLand", true);
+            if(Input.GetButton("Jump"))
+            {
+                moveDirection.y = jumpSpeed;
+                animator.SetBool("isJump", true);
+                animator.SetBool("isLand", false);
+            }
+        } else {
+            animator.SetBool("isLand", false);
+        }
+        moveDirection.y -= gravity * Time.deltaTime;
+        controller.Move(moveDirection * Time.deltaTime);
+        
 
 
         /*if(GetComponent<Rigidbody>().velocity.y > 0.1 || GetComponent<Rigidbody>().velocity.y < -0.1) {
@@ -82,10 +113,8 @@ public class SavagePlayer : MonoBehaviour
         lastMouse = Input.mousePosition - lastMouse ;
         lastMouse = new Vector3(-lastMouse.y * camSens, lastMouse.x * camSens, 0 );
         lastMouse = new Vector3(transform.eulerAngles.x + lastMouse.x , transform.eulerAngles.y + lastMouse.y, 0);
-
         // 3rd person melee
         lastMouse.x = 0;
-
         ////transform.eulerAngles = lastMouse;
         lastMouse =  Input.mousePosition;
         //Mouse  camera angle done.  
@@ -141,11 +170,6 @@ public class SavagePlayer : MonoBehaviour
         }
         if (Input.GetKey (KeyCode.D)){
             p_Velocity += new Vector3(1, 0, 0);
-        }
-        if(Input.GetKey(KeyCode.Space) && isJump == false) {
-            isJump = true;
-            animator.SetBool("isJump", true);
-            //transform.Translate(Vector3.up * 10 * Time.deltaTime, Space.World);
         }
         return p_Velocity;
  
